@@ -8,7 +8,7 @@
 | Common core | Projectos                                                                             |            Lenguaje            |                                      puntuación                                       |  nivel   |
 | :----: | :----------------------------------------------------------------------------------- | :----------------------------: | :------------------------------------------------------------------------------: | :------: |
 |   01   | [**libft**](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/libft)                             |               C                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1848854) |   n/a   |
-|   02   | [**get_next_line**](url)             |               C                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899564) |   n/a   |
-|        | [**Born2beroot**](url)                     |               C                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899907) |   n/a   |
-|        | [**ft_printf**](url)                                                                          |              n/a               | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899563) |   n/a   |
+|   02   | [**get_next_line**](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/get_next_line)             |               C                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899564) |   n/a   |
+|        | [**Born2beroot**](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/Born2beroot)                     |               C                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899907) |   n/a   |
+|        | [**ft_printf**](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/ft_printf)                                                                          |              n/a               | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899563) |   n/a   |
           
