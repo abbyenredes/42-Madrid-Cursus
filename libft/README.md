@@ -4,7 +4,7 @@
   <summary>¿Que voy a encontrarme?</summary>
   <ol>
     <li>
-      <a href="#Acerca-del-proyecto">Acerca de proyecto</a>
+      <a href="#Acerca-del-proyecto">Acerca del proyecto</a>
       <ul>
         <li><a href="#estado-del-proyecto">Estado del proyecto</a></li>
         <li><a href="#Mis-herramientas">Mis herramientas</a></li>
@@ -22,5 +22,37 @@
     <li><a href="#licencia">Licencia</a></li>
   </ol>
 </details>
+
+## Acerca del proyecto
+Se trata de replicar funciones tanto de manejo de cadenas como de control de memoria.
+Para más adelante usarlas a medida, según los requerimientos del proyecto.
+
+### Estado del proyecto
+**:construction: Proyecto en construcción :construction:**
+
+### Mis herramientas
+
+* Gestión del tiempo: [Toggl](https://chrome.google.com/webstore/detail/toggl-track-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn)
+* Controlador de versiones: Git + una carpeta extra en github.
+* Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
+* Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
+
+
+## Empecemos
+
+### Prerequisitos
+Si estas dando tus primeros pasos en el mundo del código te recomiendo que empieces a tener soltura no solamente en tu terminal, sino también en la lógica. Más adelante este escribiendo una guia sobre ello.
+* Es hora de elegir **Team Vim** o **Team Visual studio code** escoge el que más comodo te haga sentir.
+* Un cuaderno que no temas manchar, sera tu fiel compañero en esta travesia, ya sea como apuntes o para realizar algún diagrama. Si te gusta más una herramienta online, te recomiendo [evernote](https://evernote.com/es-es), [notion](https://www.notion.so/es-es), también usar github es un plus.
+* No temas en pedir ayuda a tus compañeros y avanzar en piña(bolita), así obtienes un buen ritmo de trabajo y no procrastinas.
+
+### Mi paso a paso
+
+> ⚠️**WARNING**
+> 
+> Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
+
+Sin más preanbulos comencemos:
+
 
 
