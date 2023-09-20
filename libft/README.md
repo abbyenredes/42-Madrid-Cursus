@@ -52,7 +52,7 @@ Si estas dando tus primeros pasos en el mundo del código te recomiendo que empi
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
-Sin más preanbulos comencemos:
+Sin más preámbulos comencemos:
 
 
 
