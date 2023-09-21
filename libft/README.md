@@ -36,6 +36,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Controlador de versiones: Git + una carpeta extra en github.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
+* Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html)
 
 
 ## Empecemos
@@ -53,6 +54,7 @@ Si estas dando tus primeros pasos en el mundo del código te recomiendo que empi
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
 Sin más preámbulos comencemos:
+Mi primer paso fue generar el archivo [Makefile](url), aqui te dejo un resumen que espero sea de ayuda para que comprendas 
 
 
 
