@@ -54,7 +54,8 @@ Si estas dando tus primeros pasos en el mundo del código te recomiendo que empi
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
 Sin más preámbulos comencemos:
-Mi primer paso fue generar el archivo [Makefile](url), aqui te dejo un resumen que espero sea de ayuda para que comprendas:
+Mi primer paso fue generar el archivo [Makefile](url), aqui te dejo un resumen que espero sea de ayuda:
+![Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
 
 
 
