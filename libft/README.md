@@ -61,11 +61,11 @@ Empecemos con las funciones:
 
 | Funciones de clasificación de carácteres | Descripción |
 | ------------- | ------------- |
-| [ft_isalpha](url)  | Comprueba si existe algún carácter *true* tanto para máyusculas(65-90) como para minúsculas(97-122) |
-| [ft_isdigit](url)  | Comprueba si existe algún carácter de dígito decimal(48-57) |
-| [ft_isalnum](url)  | Comprueba si existe algún carácter para el que isalpha o isdigit sea *true* |
-| [ft_isascii](url)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
-| [ft_isprint](url)  | Comprueba si existe algún carácter de impresión, incluyendo el espacio(' ')(32-126) |
+| [ft_isalpha](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isalpha.c)  | Comprueba si existe algún carácter *true* tanto para máyusculas(65-90) como para minúsculas(97-122) |
+| [ft_isdigit](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isdigit.c)  | Comprueba si existe algún carácter de dígito decimal(48-57) |
+| [ft_isalnum](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isalnum.c)  | Comprueba si existe algún carácter para el que isalpha o isdigit sea *true* |
+| [ft_isascii](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isascii.c)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
+| [ft_isprint](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isprint.c)  | Comprueba si existe algún carácter de impresión, incluyendo el espacio(' ')(32-126) |
 
 > Nota:
 > Para estas funciones me he ayudado de una tabla ascii en el formato decimal también puedes poner este comando en tu consola ```man ascii```
