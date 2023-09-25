@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/25 21:19:44 by abigamas          #+#    #+#             */
-/*   Updated: 2023/09/25 21:21:03 by abigamas         ###   ########.fr       */
+/*   Created: 2023/09/25 21:27:34 by abigamas          #+#    #+#             */
+/*   Updated: 2023/09/25 21:27:37 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-//unction tests for any character for which isupper() or islower() is true.
+//The isprint() function tests for any printing character, including space(` ')
 
-int	ft_isalpha(int c)
+int	ft_isprint(int c)
 {
-	return ((c >= 65 && c <= 90) || (c >= 97 && c <= 122));
+	return (c >= 32 && c <= 126);
 }

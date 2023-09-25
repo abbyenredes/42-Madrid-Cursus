@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/25 21:19:44 by abigamas          #+#    #+#             */
-/*   Updated: 2023/09/25 21:21:03 by abigamas         ###   ########.fr       */
+/*   Created: 2023/09/25 21:24:39 by abigamas          #+#    #+#             */
+/*   Updated: 2023/09/25 21:24:44 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-//unction tests for any character for which isupper() or islower() is true.
+// function tests for a decimal digit character
 
-int	ft_isalpha(int c)
+int	ft_isdigit(int c)
 {
-	return ((c >= 65 && c <= 90) || (c >= 97 && c <= 122));
+	return (c >= '0' && c <= '9');
 }

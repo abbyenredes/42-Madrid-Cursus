@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/25 21:19:44 by abigamas          #+#    #+#             */
-/*   Updated: 2023/09/25 21:21:03 by abigamas         ###   ########.fr       */
+/*   Created: 2023/09/25 21:25:10 by abigamas          #+#    #+#             */
+/*   Updated: 2023/09/25 21:25:14 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
-//unction tests for any character for which isupper() or islower() is true.
+//function tests for any character for which isalpha() or isdigit() is true
 
-int	ft_isalpha(int c)
+int	ft_isalnum(int c)
 {
-	return ((c >= 65 && c <= 90) || (c >= 97 && c <= 122));
+	return ((c >= 48 && c <= 57) || (c >= 65 && c <= 90)
+			|| (c >= 97 && c <= 122));
 }
