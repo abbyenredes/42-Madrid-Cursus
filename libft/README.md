@@ -57,5 +57,18 @@ Sin más preámbulos comencemos:
 Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/Makefile), aqui te dejo un resumen que espero sea de ayuda:
 ![Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
 
+Empecemos con las funciones:
+
+| Funciones de clasificación de carácteres | Descripción |
+| ------------- | ------------- |
+| [ft_isalpha](url)  | Comprueba si existe algún carácter *true* tanto para máyuscula(65-90) como para minuscula(97-122) |
+| [ft_isdigit](url)  | Comprueba si existe algún carácter de dígito decimal(48-57) |
+| [ft_isalnum](url)  | Comprueba si existe algún carácter para el que isalpha o isdigit sea *true* |
+| [ft_isascii](url)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
+| [ft_isprint](url)  | Comprueba si existe algún carácter de impresión, incluyendo el espacio(' ')(32-126) |
+
+> Nota:
+> Para estas funciones me he ayudado de una tabla ascii en el formato decimal también puedes poner este comando en tu consola ```man ascii```
+
 
 
