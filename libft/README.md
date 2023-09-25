@@ -61,7 +61,7 @@ Empecemos con las funciones:
 
 | Funciones de clasificación de carácteres | Descripción |
 | ------------- | ------------- |
-| [ft_isalpha](url)  | Comprueba si existe algún carácter *true* tanto para máyuscula(65-90) como para minuscula(97-122) |
+| [ft_isalpha](url)  | Comprueba si existe algún carácter *true* tanto para máyusculas(65-90) como para minúsculas(97-122) |
 | [ft_isdigit](url)  | Comprueba si existe algún carácter de dígito decimal(48-57) |
 | [ft_isalnum](url)  | Comprueba si existe algún carácter para el que isalpha o isdigit sea *true* |
 | [ft_isascii](url)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
@@ -71,4 +71,7 @@ Empecemos con las funciones:
 > Para estas funciones me he ayudado de una tabla ascii en el formato decimal también puedes poner este comando en tu consola ```man ascii```
 
 
-
+| Funciones de asignación de mayúsculas y minúsculas | Descripción |
+| ------------- | ------------- |
+| [ft_toupper](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_tolower](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
