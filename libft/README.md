@@ -79,9 +79,9 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
-| [ft_memcpy](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_memmove](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
-| [ft_strlcpy](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_memcpy](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Devolviendo el valor de s1|
+| [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión. |
+| [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, siendo ésta un array de carácteres. |
 
 
 | Funciones de concatenación | Descripción |
