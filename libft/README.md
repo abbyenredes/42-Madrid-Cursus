@@ -81,7 +81,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | ------------- | ------------- |
 | [ft_memcpy](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Devolviendo el valor de s1|
 | [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión, devuelve el valor de s1 |
-| [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un \0  y así evitando el desbordamiento de búfer |
+| [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer |
 
 
 | Funciones de concatenación | Descripción |
@@ -92,33 +92,33 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de comparación| Descripción |
 | ------------- | ------------- |
 | [ft_memcmp](url)  | Compara los primeros n carácteres del objeto apuntado por s1 con los primeros n carácteres del objeto que apunta s2. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2  |
-| [ft_strncmp](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_strncmp](url)  | Compara no más de n carácteres de la matriz apuntada por s1 con la matriz apuntada por s2. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 |
 
 
 | Funciones de búsqueda | Descripción |
 | ------------- | ------------- |
-| [ft_memchr](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_strchr](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
-| [ft_strrchr](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_strnstr](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_memchr](url)  | C |
+| [ft_strchr](url)  | C |
+| [ft_strrchr](url)  | C |
+| [ft_strnstr](url)  | C |
 
 
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
-| [ft_atoi](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_atoi](url)  | C |
 
 
 | Funciones varias | Descripción |
 | ------------- | ------------- |
-| [ft_strlen](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_memset](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
-| [ft_bzero](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_strlen](url)  | C |
+| [ft_memset](url)  | C |
+| [ft_bzero](url)  | C |
 
 
 | Funciones de administración de memoria | Descripción |
 | ------------- | ------------- |
-| [ft_calloc](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_strdup](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_calloc](url)  | C |
+| [ft_strdup](url)  | C |
 
 
 
