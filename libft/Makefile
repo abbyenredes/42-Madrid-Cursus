@@ -1,4 +1,4 @@
-NAME = libft.aNAME = libft.a
+NAME = libft.a
 CC = gcc
 CCFLAGS = -Wall -Werror -Wextra
 INCLUDE = libft.h
