@@ -42,9 +42,9 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 ## Empecemos
 
 ### Prerequisitos
-Si estas dando tus primeros pasos en el mundo del código te recomiendo que empieces a tener soltura no solamente en tu terminal, sino también en la lógica. Más adelante este escribiendo una guia sobre ello.
-* Es hora de elegir **Team Vim** o **Team Visual studio code** escoge el que más comodo te haga sentir.
-* Un cuaderno que no temas manchar, sera tu fiel compañero en esta travesia, ya sea como apuntes o para realizar algún diagrama. Si te gusta más una herramienta online, te recomiendo [evernote](https://evernote.com/es-es), [notion](https://www.notion.so/es-es), también usar github es un plus.
+Si estas dando tus primeros pasos en el mundo del código te recomiendo que empieces a tener soltura no solamente en tu terminal, sino también en la lógica. Más adelante este escribiendo una guía sobre ello.
+* Es hora de elegir: **Team Vim** o **Team Visual studio code**, escoge el que más comodo te haga sentir.
+* Un cuaderno que no temas manchar, sera tu fiel compañero en esta travesía, ya sea como apuntes o para realizar algún diagrama. Si te gusta más una herramienta online, te recomiendo [evernote](https://evernote.com/es-es), [notion](https://www.notion.so/es-es), también usar github es un plus.
 * No temas en pedir ayuda a tus compañeros y avanzar en piña(bolita), así obtienes un buen ritmo de trabajo y no procrastinas.
 
 ### Mi paso a paso
@@ -57,7 +57,7 @@ Sin más preámbulos comencemos:
 Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/Makefile), aqui te dejo un resumen que espero sea de ayuda:
 ![Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
 
-Empecemos con las funciones:
+##  Parte 1 - Funciones de libc
 
 | Funciones de clasificación de carácteres | Descripción |
 | ------------- | ------------- |
@@ -73,5 +73,53 @@ Empecemos con las funciones:
 
 | Funciones de asignación de mayúsculas y minúsculas | Descripción |
 | ------------- | ------------- |
-| [ft_toupper](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
-| [ft_tolower](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_toupper](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_toupper.c)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_tolower](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_tolower.c)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+
+
+| Funciones de copiado | Descripción |
+| ------------- | ------------- |
+| [ft_memcpy](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_memmove](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_strlcpy](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+
+
+| Funciones de concatenación | Descripción |
+| ------------- | ------------- |
+| [ft_strlcat](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+
+
+| Funciones de comparación| Descripción |
+| ------------- | ------------- |
+| [ft_memcmp](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_strncmp](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+
+
+| Funciones de búsqueda | Descripción |
+| ------------- | ------------- |
+| [ft_memchr](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_strchr](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_strrchr](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_strnstr](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+
+
+| Funciones de conversión númerica | Descripción |
+| ------------- | ------------- |
+| [ft_atoi](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+
+
+| Funciones varias | Descripción |
+| ------------- | ------------- |
+| [ft_strlen](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_memset](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+| [ft_bzero](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+
+
+| Funciones de administración de memoria | Descripción |
+| ------------- | ------------- |
+| [ft_calloc](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_strdup](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
+
+
+
+
