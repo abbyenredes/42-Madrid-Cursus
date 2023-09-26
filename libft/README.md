@@ -80,18 +80,18 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
 | [ft_memcpy](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Devolviendo el valor de s1|
-| [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión. |
-| [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, siendo ésta un array de carácteres. |
+| [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión, devuelve el valor de s1 |
+| [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un \0  y así evitando el desbordamiento de búfer |
 
 
 | Funciones de concatenación | Descripción |
 | ------------- | ------------- |
-| [ft_strlcat](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_strlcat](url)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento |
 
 
 | Funciones de comparación| Descripción |
 | ------------- | ------------- |
-| [ft_memcmp](url)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
+| [ft_memcmp](url)  | Compara los primeros n carácteres del objeto apuntado por s1 con los primeros n carácteres del objeto que apunta s2. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2  |
 | [ft_strncmp](url)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
 
 
