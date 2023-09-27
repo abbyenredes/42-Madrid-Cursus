@@ -37,6 +37,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
+* Documentación de funciones: [memcpy](https://www.codingninjas.com/studio/library/memcpy-c)
 
 
 ## Empecemos
@@ -79,7 +80,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
-| [ft_memcpy](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Devolviendo el valor de s1|
+| [ft_memcpy](url)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst) |
 | [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión, devuelve el valor de s1 |
 | [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer |
 
