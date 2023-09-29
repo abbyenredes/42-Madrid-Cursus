@@ -77,10 +77,16 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_toupper](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_toupper.c)  | Convierte una letra minúscula en la correspondiente letra mayúscula |
 | [ft_tolower](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_tolower.c)  | Convierte una letra mayúscula en la correspondiente letra minúscula |
 
+| Funciones varias | Descripción |
+| ------------- | ------------- |
+| [ft_strlen](url)  | C |
+| [ft_memset](url)  | Se usa para llenar un bloque de memoria con un valor particular |
+| [ft_bzero](url)  | C |
+
 
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
-| [ft_memcpy](url)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst) |
+| [ft_memcpy](url)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst). Se utiliza principalmente para copiar datos de una matriz a otra, esta función nos devuelve el valor de la memoria de destino |
 | [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión, devuelve el valor de s1 |
 | [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer |
 
@@ -107,14 +113,6 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
 | [ft_atoi](url)  | C |
-
-
-| Funciones varias | Descripción |
-| ------------- | ------------- |
-| [ft_strlen](url)  | C |
-| [ft_memset](url)  | C |
-| [ft_bzero](url)  | C |
-
 
 | Funciones de administración de memoria | Descripción |
 | ------------- | ------------- |
