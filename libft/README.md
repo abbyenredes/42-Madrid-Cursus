@@ -37,7 +37,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
-* Documentación de funciones: [memcpy](https://www.codingninjas.com/studio/library/memcpy-c)
+* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c)
 
 
 ## Empecemos
@@ -79,7 +79,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones varias | Descripción |
 | ------------- | ------------- |
-| [ft_strlen](url)  | C |
+| [ft_strlen](url)  | Recorre una cadena y devuelve su número de carácteres|
 | [ft_memset](url)  | Se usa para llenar un bloque de memoria con un valor particular |
 | [ft_bzero](url)  | C |
 
