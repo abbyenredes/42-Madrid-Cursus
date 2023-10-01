@@ -80,8 +80,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones varias | Descripción |
 | ------------- | ------------- |
 | [ft_strlen](url)  | Recorre una cadena y devuelve su número de carácteres|
-| [ft_memset](url)  | Se usa para llenar un bloque de memoria con un valor particular |
-| [ft_bzero](url)  | C |
+| [ft_memset](url)  | Se usa para llenar un bloque de memoria con un valor en particular |
+| [ft_bzero](url)  | C|
 
 
 | Funciones de copiado | Descripción |
