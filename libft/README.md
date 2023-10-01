@@ -107,7 +107,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_memchr](url)  | Se utiliza para buscar un byte específico en un bloque de memoria. La función recorre los bytes en la memoria desde el principio hasta un máximo de n bytes o hasta que encuentre el byte c, devolviendo un puntero a la ubicación donde lo encontró en la memoria. |
 | [ft_strchr](url)  | Busca la primera aparición de un carácter específico dentro de la cadena original., recorriendo la string desde el **principio**. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
 | [ft_strrchr](url)  | Busca cierta letra dentro de una cadena de texto, recorriendo la string desde la **última** aparición. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
-| [ft_strnstr](url)  | C |
+| [ft_strnstr](url)  | Busca una subcadena (needle) dentro de una cadena más larga (haystack) hasta un máximo de len carácteres. Si encuentra una coincidencia completa, devuelve un puntero a esa posición en haystack; de lo contrario, devuelve NULL. Esta función es útil para buscar subcadenas en una cadena más grande con un límite máximo de búsqueda. |
 
 
 | Funciones de conversión númerica | Descripción |
