@@ -37,7 +37,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
-* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), 
+* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr)
 
 
 ## Empecemos
@@ -98,13 +98,13 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de comparación| Descripción |
 | ------------- | ------------- |
-| [ft_memcmp](url)  | Compara los primeros n carácteres del objeto apuntado por s1 con los primeros n carácteres del objeto que apunta s2. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2  |
-| [ft_strncmp](url)  | Compara no más de n carácteres de la matriz apuntada por s1 con la matriz apuntada por s2. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 |
+| [ft_memcmp](url)  | Compara los bloques de memoria byte a byte hasta n bytes o hasta encontrar una diferencia. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2 (Puede usarse para comparar cualquier tipo de datos en la memoria.) |
+| [ft_strncmp](url)  | Compara las cadenas de caracteres carácter a carácter hasta n carácteres o hasta encontrar una diferencia. También considera el carácter nulo '\0' como parte de la comparación.. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 ( es útil para ordenar o buscar cadenas.) |
 
 
 | Funciones de búsqueda | Descripción |
 | ------------- | ------------- |
-| [ft_memchr](url)  | C |
+| [ft_memchr](url)  | Se utiliza para buscar un byte específico en un bloque de memoria. La función recorre los bytes en la memoria desde el principio hasta un máximo de n bytes o hasta que encuentre el byte c, devolviendo un puntero a la ubicación donde lo encontró en la memoria. |
 | [ft_strchr](url)  | C |
 | [ft_strrchr](url)  | C |
 | [ft_strnstr](url)  | C |
