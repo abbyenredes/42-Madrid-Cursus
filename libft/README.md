@@ -87,7 +87,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
 | [ft_memcpy](url)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst). Se utiliza principalmente para copiar datos de una matriz a otra, esta función nos devuelve el valor de la memoria de destino |
-| [ft_memmove](url)  | Copia n carácteres del objeto apuntado por s2 al objeto al que apunta s1. Sin embargo, se asegura de que no estén superpuestos. Por esta razón, copia los caracteres a un array/arreglo temporalmente. Después vuelve a copiar del array temporal al objeto en cuestión, devuelve el valor de s1 |
+| [ft_memmove](url)  | Copia n carácteres de la memoria de origen(src) a la memoria de destino(dst) . Sin embargo, se asegura de que no estén superpuestos. Por esta razón, si src[] >= dst[] lo copia en orden creciente, pero si src[] < dst[] lo copia en orden descendente, ambas formas devuelven el valor de dst |
 | [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer |
 
 
