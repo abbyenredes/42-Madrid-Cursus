@@ -93,7 +93,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de concatenación | Descripción |
 | ------------- | ------------- |
-| [ft_strlcat](url)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento |
+| [ft_strlcat](url)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento, devuelve la suma total de la variable dst y src agregando un byte extra para el carácter nulo|
 
 
 | Funciones de comparación| Descripción |
