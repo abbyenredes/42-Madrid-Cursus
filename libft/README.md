@@ -112,12 +112,14 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
-| [ft_atoi](url)  | C |
+| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
 
 | Funciones de administración de memoria | Descripción |
 | ------------- | ------------- |
 | [ft_calloc](url)  | C |
-| [ft_strdup](url)  | C |
+| [ft_strdup](url)  | Permite crear una copia exacta de una cadena de caracteres existente,
+ asignando memoria dinámicamente Esto es útil cuando se desea tener una versión
+ independiente de una cadena para modificarla sin afectar la original |
 
 
 
