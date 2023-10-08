@@ -37,7 +37,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
-* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr), [strchr](https://www.javatpoint.com/strchr-function-in-c), 
+* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr), [strchr](https://www.javatpoint.com/strchr-function-in-c), [calloc](https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm)
 
 
 ## Empecemos
@@ -116,10 +116,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de administración de memoria | Descripción |
 | ------------- | ------------- |
-| [ft_calloc](url)  | C |
-| [ft_strdup](url)  | Permite crear una copia exacta de una cadena de caracteres existente,
- asignando memoria dinámicamente Esto es útil cuando se desea tener una versión
- independiente de una cadena para modificarla sin afectar la original |
+| [ft_calloc](url)  | Asigna la memoria solicitada y devuelve un puntero a ella. La diferencia entre malloc y calloc es que malloc no establece la memoria en cero, mientras que calloc establece la memoria asignada en cero. Parámetros(nitems = este es el número de elementos que se asignarán. size = este es el tamaño de los elementos.)|
+| [ft_strdup](url)  | Permite crear una copia exacta de una cadena de caracteres existente, asignando memoria dinámicamente Esto es útil cuando se desea tener una versión independiente de una cadena para modificarla sin afectar la original |
 
 
 
