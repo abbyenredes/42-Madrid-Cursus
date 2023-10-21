@@ -141,6 +141,6 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_substr](url)  | Devuelve un segmento de datos de una cadena de origen más extensa (s: un puntero a la cadena de origen. start: el índice inicial de la subcadena en la cadena de origen. len: la longitud máxima de la subcadena.) |
 | [ft_split](url)  | Crea una subcadena a partir de una cadena determinada. |
 
-| Funciones de conversión númerica | Descripción |
+| Funciones de concatenación de cadenas | Descripción |
 | ------------- | ------------- |
-| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_strjoin](url)  | Convierte una serie de cáracteres en un valor entero. |
