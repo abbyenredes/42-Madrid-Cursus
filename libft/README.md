@@ -37,7 +37,8 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Canales recomendados para aprender Makefile [Makigas](https://www.youtube.com/watch?v=jI2n8jofuRg&ab_channel=makigas%3Aaprendeaprogramar), [WhileTrueThenDream](https://www.youtube.com/watch?v=0XlVyZAfQEM&t=137s&ab_channel=WhileTrueThenDream)
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
-* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr), [strchr](https://www.javatpoint.com/strchr-function-in-c), [calloc](https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm)
+* Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr), [strchr](https://www.javatpoint.com/strchr-function-in-c), [calloc](https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm),
+* Documentacion de File descriptor: [fd](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/)
 
 
 ## Empecemos
@@ -129,8 +130,15 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_putendl_fd](url)  | Escribe una cadena seguida de un salto de linea(\n) en el fd especificado. |
 | [ft_putnbr_fd](url)  | Escribe un número entero(int) en el fd especificado. |
 
+
 > Nota:
-> fd = file descriptor
+> fd = file descriptor(el descriptor de archivo donde se escribirá la salida), sirve para escribir entre procesos. Nos ayuda a manejarnos por salidas y
+> entradas. Si quieres ampliar esta información visita este [enlace](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/).
+
+
+| Funciones de conversión de cadena | Descripción |
+| ------------- | ------------- |
+| [ft_itoa](url)  | Convierte una serie de cáracteres en un valor entero. |
 
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
