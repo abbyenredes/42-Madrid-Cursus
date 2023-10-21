@@ -122,9 +122,16 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 ##  Parte 2 - Funciones adicionales
 
+| Funciones de entrada/salida de carácteres | Descripción |
+| ------------- | ------------- |
+| [ft_putchar_fd](url)  | Escribe un carácter en el fd especificado. |
+| [ft_putstr_fd](url)  | Escribe una cadena en el fd especificado. |
+| [ft_putendl_fd](url)  | Escribe una cadena seguida de un salto de linea(\n) en el fd especificado. |
+| [ft_putnbr_fd](url)  | Escribe un número entero(int) en el fd especificado. |
+
+> Nota:
+> fd = file descriptor
+
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
-| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
-| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
-| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
 | [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
