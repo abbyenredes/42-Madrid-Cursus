@@ -79,35 +79,35 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones varias | Descripción |
 | ------------- | ------------- |
-| [ft_strlen](url)  | Recorre una cadena y devuelve su número de carácteres|
-| [ft_memset](url)  | Se usa para llenar un bloque de memoria con un valor en particular, toma tres argumentos: La dirección de la memoria, byte constante para llenar la memoria y el número de bytes a sobrescribir |
-| [ft_bzero](url)  | Pone a 0 n bytes en una región de la memoria, sirve sobretodo para borrarla de los valores basura. A veces, hay struct que contiene múltiples valores de máscara de bits que necesitan ser puestos a cero explícitamente antes de la inicialización de sus miembros. No retorna ningún valor|
+| [ft_strlen](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strlen.c)  | Recorre una cadena y devuelve su número de carácteres|
+| [ft_memset](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memset.c)  | Se usa para llenar un bloque de memoria con un valor en particular, toma tres argumentos: La dirección de la memoria, byte constante para llenar la memoria y el número de bytes a sobrescribir |
+| [ft_bzero](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_bzero.c)  | Pone a 0 n bytes en una región de la memoria, sirve sobretodo para borrarla de los valores basura. A veces, hay struct que contiene múltiples valores de máscara de bits que necesitan ser puestos a cero explícitamente antes de la inicialización de sus miembros. No retorna ningún valor|
 
 
 | Funciones de copiado | Descripción |
 | ------------- | ------------- |
-| [ft_memcpy](url)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst). Se utiliza principalmente para copiar datos de una matriz a otra, esta función nos devuelve el valor de la memoria de destino |
-| [ft_memmove](url)  | Copia n carácteres de la memoria de origen(src) a la memoria de destino(dst) . Sin embargo, se asegura de que no estén superpuestos. Por esta razón, si src[] >= dst[] lo copia en orden creciente, pero si src[] < dst[] lo copia en orden descendente, ambas formas devuelven el valor de dst |
-| [ft_strlcpy](url)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer, devuelve el número de bytes copiados en la variable destino. |
+| [ft_memcpy](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memcpy.c)  | Copia un número específico de bytes de una ubicación de memoria a otra, o lo que es lo mismo, la memoria de origen(src) se copia en la memoria de destino(dst). Se utiliza principalmente para copiar datos de una matriz a otra, esta función nos devuelve el valor de la memoria de destino |
+| [ft_memmove](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memmove.c)  | Copia n carácteres de la memoria de origen(src) a la memoria de destino(dst) . Sin embargo, se asegura de que no estén superpuestos. Por esta razón, si src[] >= dst[] lo copia en orden creciente, pero si src[] < dst[] lo copia en orden descendente, ambas formas devuelven el valor de dst |
+| [ft_strlcpy](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strlcpy.c)  | Copia el contenido de la <cadena_fuente> en la <variable_destino>, garantizando que las cadenas están terminada con un NULL y así evitando el desbordamiento de búfer, devuelve el número de bytes copiados en la variable destino. |
 
 
 | Funciones de concatenación | Descripción |
 | ------------- | ------------- |
-| [ft_strlcat](url)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento, devuelve la suma total de la variable dst y src agregando un byte extra para el carácter nulo|
+| [ft_strlcat](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strlcat.c)  | Concatena la <cadena_fuente> en la <variable_destino>, estableciendo la longitud de la cadena de destino, que efectivamente es igual a su tamaño de búfer, y así evitando su desbordamiento, devuelve la suma total de la variable dst y src agregando un byte extra para el carácter nulo|
 
 
 | Funciones de comparación| Descripción |
 | ------------- | ------------- |
-| [ft_memcmp](url)  | Compara los bloques de memoria byte a byte hasta n bytes o hasta encontrar una diferencia. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2 (Puede usarse para comparar cualquier tipo de datos en la memoria.) |
-| [ft_strncmp](url)  | Compara las cadenas de caracteres carácter a carácter hasta n carácteres o hasta encontrar una diferencia. También considera el carácter nulo '\0' como parte de la comparación.. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 ( es útil para ordenar o buscar cadenas.) |
+| [ft_memcmp](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memcmp.c)  | Compara los bloques de memoria byte a byte hasta n bytes o hasta encontrar una diferencia. Devolviendo un int >= 0 si objeto s1 > s2/ también al contrario int < 0 si objeto s1 < s2 (Puede usarse para comparar cualquier tipo de datos en la memoria.) |
+| [ft_strncmp](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strncmp.c)  | Compara las cadenas de caracteres carácter a carácter hasta n carácteres o hasta encontrar una diferencia. También considera el carácter nulo '\0' como parte de la comparación.. Devolviendo un int >= 0 si objeto terminado en NULL s1 > s2/ también al contrario int < 0 si objeto terminado en NULL s1 < s2 ( es útil para ordenar o buscar cadenas.) |
 
 
 | Funciones de búsqueda | Descripción |
 | ------------- | ------------- |
-| [ft_memchr](url)  | Se utiliza para buscar un byte específico en un bloque de memoria. La función recorre los bytes en la memoria desde el principio hasta un máximo de n bytes o hasta que encuentre el byte c, devolviendo un puntero a la ubicación donde lo encontró en la memoria. |
-| [ft_strchr](url)  | Busca la primera aparición de un carácter específico dentro de la cadena original., recorriendo la string desde el **principio**. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
-| [ft_strrchr](url)  | Busca cierta letra dentro de una cadena de texto, recorriendo la string desde la **última** aparición. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
-| [ft_strnstr](url)  | Busca una subcadena (needle) dentro de una cadena más larga (haystack) hasta un máximo de len carácteres. Si encuentra una coincidencia completa, devuelve un puntero a esa posición en haystack; de lo contrario, devuelve NULL. Esta función es útil para buscar subcadenas en una cadena más grande con un límite máximo de búsqueda. |
+| [ft_memchr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_memchr.c)  | Se utiliza para buscar un byte específico en un bloque de memoria. La función recorre los bytes en la memoria desde el principio hasta un máximo de n bytes o hasta que encuentre el byte c, devolviendo un puntero a la ubicación donde lo encontró en la memoria. |
+| [ft_strchr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strchr.c)  | Busca la primera aparición de un carácter específico dentro de la cadena original., recorriendo la string desde el **principio**. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
+| [ft_strrchr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strrchr.c)  | Busca cierta letra dentro de una cadena de texto, recorriendo la string desde la **última** aparición. Devuelve NULL si no la contiene, o un puntero a la posición en la que se encuentra |
+| [ft_strnstr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strnstr.c)  | Busca una subcadena (needle) dentro de una cadena más larga (haystack) hasta un máximo de len carácteres. Si encuentra una coincidencia completa, devuelve un puntero a esa posición en haystack; de lo contrario, devuelve NULL. Esta función es útil para buscar subcadenas en una cadena más grande con un límite máximo de búsqueda. |
 
 
 | Funciones de conversión númerica | Descripción |
@@ -120,5 +120,11 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_strdup](url)  | Permite crear una copia exacta de una cadena de caracteres existente, asignando memoria dinámicamente Esto es útil cuando se desea tener una versión independiente de una cadena para modificarla sin afectar la original |
 
 
+##  Parte 2 - Funciones adicionales
 
-
+| Funciones de conversión númerica | Descripción |
+| ------------- | ------------- |
+| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_atoi](url)  | Convierte una serie de cáracteres en un valor entero. |
