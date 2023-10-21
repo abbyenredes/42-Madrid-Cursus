@@ -136,9 +136,10 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 > entradas. Si quieres ampliar esta información visita este [enlace](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/).
 
 
-| Funciones de conversión de cadena | Descripción |
+| Funciones de cadena | Descripción |
 | ------------- | ------------- |
-| [ft_itoa](url)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_substr](url)  | Devuelve un segmento de datos de una cadena de origen más extensa (s: un puntero a la cadena de origen. start: el índice inicial de la subcadena en la cadena de origen. len: la longitud máxima de la subcadena.) |
+| [ft_split](url)  | Crea una subcadena a partir de una cadena determinada. |
 
 | Funciones de conversión númerica | Descripción |
 | ------------- | ------------- |
