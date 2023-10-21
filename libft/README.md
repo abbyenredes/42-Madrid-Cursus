@@ -143,4 +143,4 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Funciones de concatenación de cadenas | Descripción |
 | ------------- | ------------- |
-| [ft_strjoin](url)  | Convierte una serie de cáracteres en un valor entero. |
+| [ft_strjoin](url)  | Concatena dos cadenas en una nueva cadena. |
