@@ -153,3 +153,6 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | ------------- | ------------- |
 | [ft_striteri](url)  | Escribe un carácter en el fd especificado. |
 | [ft_strmapi](url)  | Escribe una cadena en el fd especificado. | 
+
+> Nota:
+> punteros a función recursos en este [link](https://jraleman.medium.com/c-programming-language-passing-a-function-as-a-parameter-90d52fe842ea)
