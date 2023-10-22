@@ -144,3 +144,12 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de concatenación de cadenas | Descripción |
 | ------------- | ------------- |
 | [ft_strjoin](url)  | Concatena dos cadenas en una nueva cadena. |
+
+| Funciones de conversión de cadenas | Descripción |
+| ------------- | ------------- |
+| [ft_itoa](url)  | Convierte un número entero en una representación de cadena. |
+
+| Punteros a función | Descripción |
+| ------------- | ------------- |
+| [ft_striteri](url)  | Escribe un carácter en el fd especificado. |
+| [ft_strmapi](url)  | Escribe una cadena en el fd especificado. | 
