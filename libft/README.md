@@ -151,8 +151,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Punteros a función | Descripción |
 | ------------- | ------------- |
-| [ft_striteri](url)  | Escribe un carácter en el fd especificado. |
-| [ft_strmapi](url)  | Escribe una cadena en el fd especificado. | 
+| [ft_striteri](url)  | Aplica una función f a cada carácter de la cadena s, junto con su índice correspondiente. Comprueba si tanto s como f son punteros válidos antes de continuar. Inicializa un contador i para realizar un seguimiento del índice e itera sobre los caracteres de la cadena s, aplicando la función f con el índice y carácter actuales |
+| [ft_strmapi](url)  | Aplica una función f a cada carácter de la cadena s, generando una nueva cadena con los caracteres modificados. Primero determina la longitud de la cadena de entrada y asigna memoria para la nueva cadena. Luego, itera sobre los caracteres de la cadena de entrada, aplicando la función f y almacenando el resultado en la nueva cadena. Se devuelve la cadena modificada resultante. | 
 
 > Nota:
-> punteros a función recursos en este [link](https://jraleman.medium.com/c-programming-language-passing-a-function-as-a-parameter-90d52fe842ea)
+> punteros a función en este [link](https://jraleman.medium.com/c-programming-language-passing-a-function-as-a-parameter-90d52fe842ea)
