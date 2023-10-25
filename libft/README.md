@@ -139,11 +139,11 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de cadena | Descripción |
 | ------------- | ------------- |
 | [ft_substr](url)  | Devuelve un segmento de datos de una cadena de origen más extensa (s: un puntero a la cadena de origen. start: el índice inicial de la subcadena en la cadena de origen. len: la longitud máxima de la subcadena.) |
-| [ft_split](url)  | Crea una subcadena a partir de una cadena determinada. |
+| [ft_split](url)  | Crea una subcadena a partir de una cadena determinada. Dividiendo una cadena en una matriz de subcadenas según un carácter delimitador. (s: un puntero a la cadena que se va a dividir. c: el carácter delimitador utilizado para dividir la cadena.) Devuelve una matriz de cadenas asignada dinámicamente que representa las subcadenas divididas. |
 
 | Funciones de concatenación de cadenas | Descripción |
 | ------------- | ------------- |
-| [ft_strjoin](url)  | Concatena dos cadenas en una nueva cadena. |
+| [ft_strjoin](url)  | Concatena dos cadenas en una nueva cadena. Retornando esta nueva cadena.|
 
 | Funciones de conversión de cadenas | Descripción |
 | ------------- | ------------- |
