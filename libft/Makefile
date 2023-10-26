@@ -24,6 +24,20 @@ SRC = ft_isalpha.c\
 	  ft_strchr.c\
 	  ft_strrchr.c\
 	  ft_strnstr.c\
+	  ft_atoi.c\
+	  ft_strdup.c\
+	  ft_calloc.c\
+	  ft_putchar_fd.c\
+	  ft_putstr_fd.c\
+	  ft_putendl_fd.c\
+	  ft_putnbr_fd.c\
+	  ft_substr.c\
+	  ft_strjoin.c\
+	  ft_itoa.c\
+	  ft_split.c\
+	  ft_striteri.c\
+	  ft_strmapi.c\
+	  ft_strtrim.c
 OBJS = $(SRC:%.c=%.o)
 
 all:  $(NAME)
@@ -32,6 +46,7 @@ all:  $(NAME)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS) $(INCLUDE)
+	 @echo "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ Compilando, espere unos segundos..."
 	$(AR) $(NAME) $(OBJS)
 
 clean:
@@ -39,6 +54,7 @@ clean:
 
 fclean: clean
 	$(RM) $(NAME)
+	 @echo "(╯°□°）╯︵ ┻━┻ $(NAME) removido!"
 
 re: fclean all
 
