@@ -6,7 +6,7 @@
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/26 19:54:22 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/26 19:59:28 by abigamas         ###   ########.fr       */
+/*   Updated: 2023/10/27 17:36:28 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,19 +16,19 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	int		c;
-	char	*dst;
-	int		len;
+	unsigned int	i;
+	char			*dst;
+	unsigned int	len;
 
-	c = 0;
+	i = 0;
 	len = ft_strlen(s);
-	dst = (char *) ft_calloc(len + 1, 1);
+	dst = ft_strdup(s);
 	if (!dst)
-		return (free(dst), NULL);
-	while (s[c] != '\0')
+		return (NULL);
+	while (i < len)
 	{
-		dst[c] = f(c, s[c]);
-		c++;
+		dst[i] = f(i, s[i]);
+		i++;
 	}
 	return (dst);
 }
