@@ -140,7 +140,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | ------------- | ------------- |
 | [ft_substr](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_substr.c)  | Devuelve un segmento de datos de una cadena de origen más extensa (s: un puntero a la cadena de origen. start: el índice inicial de la subcadena en la cadena de origen. len: la longitud máxima de la subcadena.) |
 | [ft_split](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_split.c)  | Crea una subcadena a partir de una cadena determinada. Dividiendo una cadena en una matriz de subcadenas según un carácter delimitador. (s: un puntero a la cadena que se va a dividir. c: el carácter delimitador utilizado para dividir la cadena.) Devuelve una matriz de cadenas asignada dinámicamente que representa las subcadenas divididas. |
-| [ft_strtrim](url)  | Recorta los caracteres iniciales y finales de una cadena en función de un conjunto de caracteres determinado. (s1: un puntero a la cadena que se va a recortar. set: puntero al conjunto de caracteres que se van a recortar), se devuelve un puntero a la cadena recortada.|
+| [ft_strtrim](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strtrim.c)  | Recorta los caracteres iniciales y finales de una cadena en función de un conjunto de caracteres determinado. (s1: un puntero a la cadena que se va a recortar. set: puntero al conjunto de caracteres que se van a recortar), se devuelve un puntero a la cadena recortada.|
 
 | Funciones de concatenación de cadenas | Descripción |
 | ------------- | ------------- |
