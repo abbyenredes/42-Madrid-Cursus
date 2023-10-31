@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/27 16:08:19 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/27 16:12:02 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/26 17:21:39 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/27 16:10:21 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
-//Trims the leading and trailing characters from a string s1 that match any
+//Trims the leading and trailing characters from a string s1 that match any 
 //character in the set set.
 
 char	*ft_strtrim(char const *s1, char const *set)
