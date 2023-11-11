@@ -39,6 +39,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
 * Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr), [strchr](https://www.javatpoint.com/strchr-function-in-c), [calloc](https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm), [strmapi](https://velog.io/@jungjaedev/ftstrmapi)
 * Documentacion de File descriptor: [fd](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/)
+* Bonus: [listas](https://personales.unican.es/corcuerp/progcomp/slides/Listas_Colas.pdf)(véase pág 21). 
 
 
 ## Empecemos
@@ -157,3 +158,13 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 > Nota:
 > punteros a función en este [link](https://jraleman.medium.com/c-programming-language-passing-a-function-as-a-parameter-90d52fe842ea)
+
+## Parte bonus
+
+| Listas enlazadas | Descripción |
+| ------------- | ------------- |
+| [ft_lstnew](url)  | Inserta un nodo con dato x en la lista, pudiendo realizarse esta inserción al principio o final de la lista o bien en orden. |
+| [ft_lstadd_front](url)  | Inserta un nodo con dato x al principio de la lista. |
+| [ft_lstsize](url)  | Cuenta el número de nodos de una lista. |
+| [ft_lstlast](url)  | Devuelve el último nodo de la lista. |
+| [ft_lstadd_back](url)  | Inserta un nodo con dato x al final de la lista. |
