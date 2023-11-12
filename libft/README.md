@@ -182,3 +182,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 ### Comprobamos que Makefile cumple los requerimientos
 
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/Makefile.gif)
+
+
+## Roadmap
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/1.jpg)
+![]()
