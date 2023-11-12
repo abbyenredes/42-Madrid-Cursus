@@ -39,7 +39,7 @@ Para más adelante usarlas a medida, según los requerimientos del proyecto.
 * Documentación y tutoriales de Makefile [TUTO](https://stackoverflowteams.com/c/42network/questions/1604/1605), [documentación oficial](https://www.gnu.org/software/make/manual/make.html), [mini make](http://informatica.uv.es/iiguia/HP/docs/mini_make.pdf), [wikipedia make](https://es.wikipedia.org/wiki/Make)
 * Documentación de funciones: [memset](https://barcelonageeks.com/memset-en-c-con-ejemplos/), [bzero](https://www.delftstack.com/es/howto/c/bzero-in-c/), [memcpy](https://www.codingninjas.com/studio/library/memcpy-c), [memmove](https://www.tutorialspoint.com/c_standard_library/c_function_memmove.htm), [memchr](https://runebook.dev/es/docs/c/string/byte/memchr), [strchr](https://www.javatpoint.com/strchr-function-in-c), [calloc](https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm), [strmapi](https://velog.io/@jungjaedev/ftstrmapi)
 * Documentacion de File descriptor: [fd](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/)
-* Bonus: [listas](https://personales.unican.es/corcuerp/progcomp/slides/Listas_Colas.pdf)(véase pág 21). 
+* Bonus: [listas](https://personales.unican.es/corcuerp/progcomp/slides/Listas_Colas.pdf)(véase pág 21), [listas con imagenes](http://aniei.org.mx/paginas/uam/Descargas/Recursos/Tema_Listas_Enlazadas.pdf).
 
 
 ## Empecemos
