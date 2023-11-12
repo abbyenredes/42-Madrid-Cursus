@@ -178,3 +178,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 ### parte de test
 
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/test.gif)
+
+### Comprobamos que Makefile cumple los requerimientos
+
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/Makefile.gif)
