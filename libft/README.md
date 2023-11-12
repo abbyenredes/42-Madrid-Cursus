@@ -173,4 +173,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_lstiter](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstiter.c)  | Itera a través de una lista vinculada 'lst' y aplica la función 'f' al contenido de cada nodo. |
 | [ft_lstmap](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstmap.c)  | Crea una nueva lista vinculada aplicando una función determinada a cada elemento de una lista vinculada existente. Los elementos transformados resultantes se utilizan para formar una nueva lista. |
 
+## Pongamoslo a prueba
 
+### parte de test
+
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/test.gif)
