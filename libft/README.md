@@ -168,3 +168,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_lstsize](url)  | Cuenta el número de nodos de una lista. |
 | [ft_lstlast](url)  | Devuelve el último nodo de la lista. |
 | [ft_lstadd_back](url)  | Inserta un nodo con dato x al final de la lista. |
+| [ft_lstdelone](url)  | Elimina un único nodo 'lst' de la lista vinculada y libera su contenido usando la función 'del', luego desasigna la memoria para el nodo. |
+| [ft_lstclear](url)  | Borra toda la lista enlazada a la que apunta 'lst' y desasigna memoria para cada nodo. |
+| [ft_lstiter](url)  | Itera a través de una lista vinculada 'lst' y aplica la función 'f' al contenido de cada nodo. |
+
