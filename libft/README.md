@@ -163,14 +163,14 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 | Listas enlazadas | Descripción |
 | ------------- | ------------- |
-| [ft_lstnew](url)  | Inserta un nodo con dato x en la lista, pudiendo realizarse esta inserción al principio o final de la lista o bien en orden. |
-| [ft_lstadd_front](url)  | Inserta un nodo con dato x al principio de la lista. |
-| [ft_lstsize](url)  | Cuenta el número de nodos de una lista. |
-| [ft_lstlast](url)  | Devuelve el último nodo de la lista. |
-| [ft_lstadd_back](url)  | Inserta un nodo con dato x al final de la lista. |
-| [ft_lstdelone](url)  | Elimina un único nodo 'lst' de la lista vinculada y libera su contenido usando la función 'del', luego desasigna la memoria para el nodo. |
-| [ft_lstclear](url)  | Borra toda la lista enlazada a la que apunta 'lst' y desasigna memoria para cada nodo. |
-| [ft_lstiter](url)  | Itera a través de una lista vinculada 'lst' y aplica la función 'f' al contenido de cada nodo. |
-| [ft_lstmap](url)  | Crea una nueva lista vinculada aplicando una función determinada a cada elemento de una lista vinculada existente. Los elementos transformados resultantes se utilizan para formar una nueva lista. |
+| [ft_lstnew](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstnew.c)  | Inserta un nodo con dato x en la lista, pudiendo realizarse esta inserción al principio o final de la lista o bien en orden. |
+| [ft_lstadd_front](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstadd_front.c)  | Inserta un nodo con dato x al principio de la lista. |
+| [ft_lstsize](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstsize.c)  | Cuenta el número de nodos de una lista. |
+| [ft_lstlast](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstlast.c)  | Devuelve el último nodo de la lista. |
+| [ft_lstadd_back](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstadd_back.c)  | Inserta un nodo con dato x al final de la lista. |
+| [ft_lstdelone](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstdelone.c)  | Elimina un único nodo 'lst' de la lista vinculada y libera su contenido usando la función 'del', luego desasigna la memoria para el nodo. |
+| [ft_lstclear](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstclear.c)  | Borra toda la lista enlazada a la que apunta 'lst' y desasigna memoria para cada nodo. |
+| [ft_lstiter](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstiter.c)  | Itera a través de una lista vinculada 'lst' y aplica la función 'f' al contenido de cada nodo. |
+| [ft_lstmap](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_lstmap.c)  | Crea una nueva lista vinculada aplicando una función determinada a cada elemento de una lista vinculada existente. Los elementos transformados resultantes se utilizan para formar una nueva lista. |
 
 
