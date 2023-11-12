@@ -127,9 +127,9 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | Funciones de entrada/salida de carácteres | Descripción |
 | ------------- | ------------- |
 | [ft_putchar_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putchar_fd.c)  | Escribe un carácter en el fd especificado. |
-| [ft_putstr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putendl_fd.c)  | Escribe una cadena en el fd especificado. |
-| [ft_putendl_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putnbr_fd.c)  | Escribe una cadena seguida de un salto de linea(\n) en el fd especificado. |
-| [ft_putnbr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putstr_fd.c)  | Escribe un número entero(int) en el fd especificado. |
+| [ft_putstr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putstr_fd.c)  | Escribe una cadena en el fd especificado. |
+| [ft_putendl_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putendl_fd.c)  | Escribe una cadena seguida de un salto de linea(\n) en el fd especificado. |
+| [ft_putnbr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putnbr_fd.c)  | Escribe un número entero(int) en el fd especificado. |
 
 
 > Nota:
