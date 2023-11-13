@@ -186,4 +186,15 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 ## Roadmap
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/1.jpg)
-![]()
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/2.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/3.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/3.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/4.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/5.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/6.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/7.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/8.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/9.jpg)
+
+## Licencia
+
