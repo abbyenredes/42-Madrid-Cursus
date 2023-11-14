@@ -183,6 +183,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/Makefile.gif)
 
+> Nota: para compilarlo desde otra carpeta uso ```gcc -I ../ main.c -L ../ -lft```
+> si es en la misma carpeta ```gcc main.c -L. -lft```
 
 ## Roadmap
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/1.jpg)
