@@ -182,8 +182,28 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/Makefile.gif)
 
+### Compilando algunas funciones
+
 > Nota: para compilarlo desde otra carpeta uso ```gcc -I ../ main.c -L ../ -lft```
 > si es en la misma carpeta ```gcc main.c -L. -lft```
+
+#### strrchr
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/strrchr.gif)
+
+#### strdup
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/strdup.gif)
+
+#### substr
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/substr.gif)
+
+#### strmapi
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/strmapi.gif)
+
+#### split
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/split.gif)
+
+#### lstadd_front
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/lstadd_front.gif)
 
 ## Roadmap
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/1.jpg)
@@ -197,5 +217,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/8.jpg)
 ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/9.jpg)
 
-## Licencia
+# Buena suerte con tu primera libreria
+
+![](https://media0.giphy.com/media/Ls9BbFKwDUWxpjbS5l/giphy.gif?cid=ecf05e47a5iyjn37txxbes6m2nmsqbq44xy335jbppdczzag&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
