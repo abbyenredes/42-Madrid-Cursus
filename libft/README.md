@@ -28,7 +28,7 @@ Se trata de replicar funciones tanto de manejo de cadenas como de control de mem
 Para más adelante usarlas a medida, según los requerimientos del proyecto.
 
 ### Estado del proyecto
-**:construction: Proyecto en construcción :construction:**
+**:white_check_mark: Proyecto finalizdo :white_check_mark:**
 
 ### Mis herramientas
 
