@@ -19,7 +19,6 @@
     </li>
     <li><a href="#Pongamoslo-a-prueba">Pongamoslo a prueba</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#licencia">Licencia</a></li>
   </ol>
 </details>
 
