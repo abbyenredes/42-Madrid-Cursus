@@ -37,10 +37,27 @@ SRC = ft_isalpha.c\
 	  ft_split.c\
 	  ft_striteri.c\
 	  ft_strmapi.c\
-	  ft_strtrim.c
+	  ft_strtrim.c\
+
+BSRC=  ft_lstnew.c\
+	   ft_lstadd_front.c\
+	   ft_lstsize.c\
+	   ft_lstlast.c\
+	   ft_lstadd_back.c\
+	   ft_lstdelone.c\
+	   ft_lstclear.c\
+	   ft_lstiter.c\
+	   ft_lstmap.c
+
 OBJS = $(SRC:%.c=%.o)
 
+BOBJ = $(BSRC:.c=.o)
+
 all:  $(NAME)
+
+bonus :	$(OBJ) $(BOBJ) 
+	$(AR) -r $(NAME) $?
+	@echo "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ Compilando bonus, espere unos segundos..."
 
 %.o:%.c
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -51,11 +68,14 @@ $(NAME): $(OBJS) $(INCLUDE)
 
 clean:
 	$(RM) $(OBJS)
+	$(RM) $(BOBJ)
 
 fclean: clean
 	$(RM) $(NAME)
-	 @echo "(╯°□°）╯︵ ┻━┻ $(NAME) removido!"
+	 @echo "(╯°□°）╯︵ ┻━┻ todo limpio por aquí!"
 
 re: fclean all
+rebonus: fclean bonus
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus rebonus
+

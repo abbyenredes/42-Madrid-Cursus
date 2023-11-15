@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abigamas <abigamas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/26 19:52:50 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/26 19:53:24 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/22 05:10:39 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/25 16:25:52 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//function splits a string into an array of substrings based
+//function splits a string into an array of substrings based 
 //on a delimiter character.
 
 static size_t	count_words(const char *str, char c)

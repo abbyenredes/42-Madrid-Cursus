@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/26 19:49:46 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/26 19:50:07 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/08 11:27:19 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/21 16:18:16 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//function allocates sufficient memory for a copy of the string s1, does the
+//function allocates sufficient memory for a copy of the string s1, does the 
 //copy, and returns a pointer to it.
 
 void	ft_strcy(char *dest, char *src)

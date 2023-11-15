@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/26 19:52:11 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/26 19:52:27 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/22 00:05:15 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/22 00:29:57 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//Concatenates two strings s1 and s2 into a new string.
+//Concatenates two strings s1 and s2 into a new string. 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*new_str;

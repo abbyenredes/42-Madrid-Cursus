@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abigamas <abigamas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/04 18:28:20 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/04 18:28:26 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/04 14:15:01 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/04 17:43:01 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//function locates the first occurrence of the null-terminated string needle
-//in the string haystack, where not more than len characters are searched.
+//function locates the first occurrence of the null-terminated string needle 
+//in the string haystack, where not more than len characters are searched.  
 //Characters that appear after a `\0' character are not searched.
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)

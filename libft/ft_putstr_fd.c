@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/26 20:01:35 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/26 20:01:54 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/08 12:45:54 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/21 16:16:13 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//Writes the string s to the specified file descriptor fd.
+//Writes the string s to the specified file descriptor fd. 
 
 void	ft_putstr_fd(char *s, int fd)
 {

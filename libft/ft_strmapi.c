@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/26 19:54:22 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/27 17:36:28 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/25 17:32:17 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/27 17:37:07 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
-//Applies a function f to each character of the string s, generating a new
+//Applies a function f to each character of the string s, generating a new 
 //string with the modified characters.
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
@@ -26,7 +25,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!dst)
 		return (NULL);
 	while (i < len)
-	{
+	{	
 		dst[i] = f(i, s[i]);
 		i++;
 	}

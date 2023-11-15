@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/04 18:06:12 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/04 18:06:17 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/01 03:26:01 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/01 04:55:04 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//function writes n zero bytes to the string s.
+//function writes n zeroed bytes to the string s.
 
 void	ft_bzero(void *s, size_t n)
 {

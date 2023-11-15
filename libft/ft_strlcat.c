@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/04 18:16:27 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/04 18:16:34 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/01 10:00:35 by abigamas          #+#    #+#             */
+/*   Updated: 2023/10/04 18:16:03 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//appends string src to the end of dst.  It will append at most dstsize
+//appends string src to the end of dst.  It will append at most dstsize 
 //- strlen(dst) - 1 characters.
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)

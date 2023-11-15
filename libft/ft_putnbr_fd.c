@@ -5,13 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/26 20:03:46 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/26 20:04:07 by abigamas         ###   ########.fr       */
+/*   Created: 2023/10/21 16:05:40 by abigamas          #+#    #+#             */
+/*   Updated: 2023/11/12 03:33:32 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//Writes an integer n to the specified file descriptor fd.
+//Writes an integer n to the specified file descriptor fd. 
 
 void	ft_putnbr_fd(int nn, int fd)
 {
