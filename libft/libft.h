@@ -1,81 +1,69 @@
-NAME = libft.a
-CC = gcc
-CFLAGS = -Wall -Werror -Wextra
-INCLUDE = libft.h
-AR = ar -rcs
-RM = rm -f
-SRC = ft_isalpha.c\
-	  ft_isdigit.c\
-	  ft_isalnum.c\
-	  ft_isascii.c\
-	  ft_isprint.c\
-	  ft_toupper.c\
-	  ft_tolower.c\
-	  ft_strlen.c\
-	  ft_memset.c\
-	  ft_bzero.c\
-	  ft_memcpy.c\
-	  ft_memmove.c\
-	  ft_strlcpy.c\
-	  ft_strlcat.c\
-	  ft_memcmp.c\
-	  ft_strncmp.c\
-	  ft_memchr.c\
-	  ft_strchr.c\
-	  ft_strrchr.c\
-	  ft_strnstr.c\
-	  ft_atoi.c\
-	  ft_strdup.c\
-	  ft_calloc.c\
-	  ft_putchar_fd.c\
-	  ft_putstr_fd.c\
-	  ft_putendl_fd.c\
-	  ft_putnbr_fd.c\
-	  ft_substr.c\
-	  ft_strjoin.c\
-	  ft_itoa.c\
-	  ft_split.c\
-	  ft_striteri.c\
-	  ft_strmapi.c\
-	  ft_strtrim.c\
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abigamas <abigamas@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/14 17:46:54 by abigamas          #+#    #+#             */
+/*   Updated: 2023/11/15 19:42:14 by abigamas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-BSRC=  ft_lstnew.c\
-	   ft_lstadd_front.c\
-	   ft_lstsize.c\
-	   ft_lstlast.c\
-	   ft_lstadd_back.c\
-	   ft_lstdelone.c\
-	   ft_lstclear.c\
-	   ft_lstiter.c\
-	   ft_lstmap.c
+#ifndef LIBFT_H
+# define LIBFT_H
+# include <unistd.h>
+# include <ctype.h>
+# include <stddef.h>
+# include <stdlib.h>
 
-OBJS = $(SRC:%.c=%.o)
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
 
-BOBJ = $(BSRC:.c=.o)
-
-all:  $(NAME)
-
-bonus :	$(OBJ) $(BOBJ) 
-	$(AR) -r $(NAME) $?
-	@echo "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ Compilando bonus, espere unos segundos..."
-
-%.o:%.c
-	$(CC) $(CFLAGS) -c $< -o $@
-
-$(NAME): $(OBJS) $(INCLUDE)
-	 @echo "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ Compilando, espere unos segundos..."
-	$(AR) $(NAME) $(OBJS)
-
-clean:
-	$(RM) $(OBJS)
-	$(RM) $(BOBJ)
-
-fclean: clean
-	$(RM) $(NAME)
-	 @echo "(╯°□°）╯︵ ┻━┻ todo limpio por aquí!"
-
-re: fclean all
-rebonus: fclean bonus
-
-.PHONY: all clean fclean re bonus rebonus
-
+int		ft_isalpha(int c);
+int		ft_isdigit(int c);
+int		ft_isalnum(int c);
+int		ft_isascii(int c);
+int		ft_isprint(int c);
+int		ft_toupper(int c);
+int		ft_tolower(int c);
+size_t	ft_strlen(const char *str);
+void	*ft_memset(void *b, int c, size_t len);
+void	ft_bzero(void *s, size_t n);
+void	*ft_memcpy(void *dst, const void *src, size_t n);
+void	*ft_memmove(void *dst, const void *src, size_t len);
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+void	*ft_memchr(const void *s, int c, size_t n);
+char	*ft_strchr(const char *s, int c);
+char	*ft_strrchr(const char *s, int c);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
+int		ft_atoi(const char *str);
+char	*ft_strdup(const char *s1);
+void	*ft_calloc(size_t nitems, size_t size);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_itoa(int n);
+char	**ft_split(char const *s, char c);
+void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+char	*ft_strtrim(char const *s1, char const *set);
+t_list	*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+int		ft_lstsize(t_list *lst);
+t_list	*ft_lstlast(t_list *lst);
+void	ft_lstadd_back(t_list **lst, t_list *new);
+void	ft_lstdelone(t_list *lst, void (*del)(void *));
+void	ft_lstclear(t_list **lst, void (*del)(void *));
+void	ft_lstiter(t_list *lst, void (*f)(void *));
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+#endif
