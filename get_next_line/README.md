@@ -1,4 +1,4 @@
-<h1 align="center"> Mi primera libreria en C </h1>
+<h1 align="center"> litas </h1>
 
 <details>
   <summary>¿Que voy a encontrarme?</summary>
