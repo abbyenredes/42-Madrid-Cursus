@@ -35,6 +35,7 @@ Para más adelante usarla a medida, según los requerimientos del proyecto.
 * Controlador de versiones: Git + una carpeta extra en github.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Libro-curso de c/c++: [curso de progamación c/c++](https://anayamultimedia.es/libro/manuales-imprescindibles/c-cmasmas-curso-de-programacion-miguel-angel-acera-garcia-9788441539372/) también de mi biblioteca de confianza.
+* Documentación sobre printf: [UC3M](https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_es.html)
 
 ## Empecemos
 
