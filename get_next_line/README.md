@@ -1,4 +1,4 @@
-<h1 align="center"> litas </h1>
+<h1 align="center"> GNL </h1>
 
 <details>
   <summary>¿Que voy a encontrarme?</summary>
