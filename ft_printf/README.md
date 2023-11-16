@@ -52,3 +52,7 @@ Conocer a fondo como se comporta printf, documentarnos acerca de cadena de forma
 Sin más preámbulos comencemos:
 
 Primero me documente sobre el comportamiento de prinf, aqui un pequeño resumen:
+
+| Entrada y salida de datos | Descripción |
+| ------------- | ------------- |
+| [ft_printf](URL)  | Imprime la salida formateada en la salida estándar de acuerdo con el especificador de formato en la cadena de entrada str. Siendo **str**: la cadena de entrada terminada en nulo que contiene el especificador de formato, y **…** – Argumentos opcionales que se formatearán según el especificador de formato. |
