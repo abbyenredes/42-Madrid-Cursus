@@ -35,7 +35,7 @@ Para más adelante usarla a medida, según los requerimientos del proyecto.
 * Controlador de versiones: Git + una carpeta extra en github.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Libro-curso de c/c++: [curso de progamación c/c++](https://anayamultimedia.es/libro/manuales-imprescindibles/c-cmasmas-curso-de-programacion-miguel-angel-acera-garcia-9788441539372/) también de mi biblioteca de confianza.
-* Documentación sobre printf: [UC3M](https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_es.html)
+* Documentación sobre printf: [UC3M](https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_es.html), [los secretos de printf](https://algoritmos9511.gitlab.io/_downloads/1957137bc70fc4a237497050cfc49c7f/los-secretos-de-printf.pdf), [funcion prinf en c](https://www.pcresumen.com/menu-software/36-lenguajes-de-programacion/c/113-la-funcion-printf-en-c)
 
 ## Empecemos
 
@@ -56,3 +56,23 @@ Primero me documente sobre el comportamiento de prinf, aqui un pequeño resumen:
 | Entrada y salida de datos | Descripción |
 | ------------- | ------------- |
 | [ft_printf](URL)  | Imprime la salida formateada en la salida estándar de acuerdo con el especificador de formato en la cadena de entrada str. Siendo **str**: la cadena de entrada terminada en nulo que contiene el especificador de formato, y **…** – Argumentos opcionales que se formatearán según el especificador de formato. |
+
+
+| Especificador de formato | Indican a las funciones variadicas el tipo de argumento con el que irá a trabajar. |
+| ------------- | ------------- |
+| %c | Imprime un solo carácter. |
+| %s | Imprime una string (como se define por defecto en C). |
+| %p | El puntero void * dado como argumento se imprime en formato hexadecimal. |
+| %d | Imprime un número decimal (base 10). |
+| %i | Imprime un entero en base 10. |
+| %u | Imprime un número decimal (base 10) sin signo. |
+| %x | Imprime un número hexadecimal (base 16) en minúsculas. |
+| %X | Imprime un número hexadecimal (base 16) en mayúsculas. |
+| %% | Para imprimir el símbolo del porcentaje. |
+
+| Flags | Descripción |
+| ------------- | ------------- |
+| -0. | v |
+| field minimum width | v |
+| # | El valor se convierte a un formato alternativo si se define éste para la conversión seleccionada. Los formatos alternativos para las conversiones se describen junto con la conversión correspondiente. |
+| + | Inicia siempre la salida con el signo + o − para los valores numéricos. Por defecto sólo aparece el signo − para los valores negativos. |
