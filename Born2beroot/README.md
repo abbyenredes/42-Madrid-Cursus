@@ -34,6 +34,8 @@ a poder crear entornos para realizar tareas de simulación o hacking ético.
 
 * Gestión del tiempo: [Toggl](https://chrome.google.com/webstore/detail/toggl-track-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn)
 * Controlador de versiones: Git + una carpeta extra en github.
+* Libro de mi biblioteca de confianza [Debian GNU/Linux](https://www.llibrerialagralla.cat/llibre-tecnic/454097-debian-gnulinux-guia-practica.html)
+* Documentación oficial : [Debian](https://www.debian.org/doc/manuals/debian-reference/debian-reference.es.pdf)
 
 ## Empecemos
 
@@ -41,8 +43,11 @@ a poder crear entornos para realizar tareas de simulación o hacking ético.
 
 ### Mi paso a paso
 
-> ⚠️**WARNING**
+> [!WARNING]
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
 Sin más preámbulos comencemos:
+
+Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea de ayuda >> [tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
+
