@@ -40,7 +40,15 @@ a poder crear entornos para realizar tareas de simulación o hacking ético.
 ## Empecemos
 
 ### Prerequisitos
-
+* Elegir sistema operativo **Devian** **Rocky**
+* Crear al menos 2 particiones cifradas usando LVM.
+* Crear un usuario y asignárselo a un grupo.
+* El servicio SSH se ejecutará unicamente en el puerto 4242.
+* configurar tu sistema operativo con el firewall UFW, (o firewalld en Rocky) dejando solamente el puerto 4242 abierto.
+* El hostname de tu máquina virtual debe ser tu login terminado en 42, y debera poder editarse durante la evaluación.
+* Implementar una política de contraseñas fuerte.
+* Instalar y configurar sudo siguiendo reglas estrictas.
+* Crear un script sencillo llamado monitoring.sh. Debe estar desarrollado en bash.
 ### Mi paso a paso
 
 > [!WARNING]
@@ -51,3 +59,12 @@ Sin más preámbulos comencemos:
 
 Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea de ayuda >> [tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
 
+#### Crear una cuenta de usuario adicional:
+
+Añadir usuario:
+```adduser tester40```
+Cambiar nombre de usuario:
+```usermod -l tester42 tester40```
+
+Borrar usuario:
+```deluser --remove-home tester42```
