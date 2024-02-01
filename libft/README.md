@@ -51,7 +51,7 @@ Si estas dando tus primeros pasos en el mundo del código te recomiendo que empi
 
 ### Mi paso a paso
 
-> ⚠️**WARNING**
+> [!WARNING]
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
@@ -69,7 +69,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_isascii](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isascii.c)  | Comprueba si existe algún carácter *true* en el alfabeto ascii(0-127) |
 | [ft_isprint](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_isprint.c)  | Comprueba si existe algún carácter de impresión, incluyendo el espacio(' ')(32-126) |
 
-> Nota:
+> [!Note]
 > Para estas funciones me he ayudado de una tabla ascii en el formato decimal también puedes poner este comando en tu consola ```man ascii```
 
 
@@ -131,7 +131,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_putnbr_fd](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_putnbr_fd.c)  | Escribe un número entero(int) en el fd especificado. |
 
 
-> Nota:
+> [!Note]
 > fd = file descriptor(el descriptor de archivo donde se escribirá la salida), sirve para escribir entre procesos. Nos ayuda a manejarnos por salidas y
 > entradas. Si quieres ampliar esta información visita este [enlace](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/).
 
@@ -155,7 +155,7 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 | [ft_striteri](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_striteri.c)  | Aplica una función f a cada carácter de la cadena s, junto con su índice correspondiente. Comprueba si tanto s como f son punteros válidos antes de continuar. Inicializa un contador i para realizar un seguimiento del índice e itera sobre los caracteres de la cadena s, aplicando la función f con el índice y carácter actuales |
 | [ft_strmapi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/ft_strmapi.c)  | Aplica una función f a cada carácter de la cadena s, generando una nueva cadena con los caracteres modificados. Primero determina la longitud de la cadena de entrada y asigna memoria para la nueva cadena. Luego, itera sobre los caracteres de la cadena de entrada, aplicando la función f y almacenando el resultado en la nueva cadena. Se devuelve la cadena modificada resultante. | 
 
-> Nota:
+> [!Note]
 > punteros a función en este [link](https://jraleman.medium.com/c-programming-language-passing-a-function-as-a-parameter-90d52fe842ea)
 
 ## Parte bonus
@@ -184,7 +184,8 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 ### Compilando algunas funciones
 
-> Nota: para compilarlo desde otra carpeta uso ```gcc -I ../ main.c -L ../ -lft```
+> [!Note]
+> para compilarlo desde otra carpeta uso ```gcc -I ../ main.c -L ../ -lft```
 > si es en la misma carpeta ```gcc main.c -L. -lft```
 
 #### strrchr
