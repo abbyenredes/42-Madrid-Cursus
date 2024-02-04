@@ -59,6 +59,10 @@ Sin más preámbulos comencemos:
 
 Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea de ayuda >> [tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
 
+> [!NOTE]
+> Si vas a realizar el bonus debes configurar tus particiones desde el principio, si no te va a tocar rehacer el proyecto.
+
+
 #### Crear una cuenta de usuario adicional:
 
 Añadir usuario:
