@@ -36,6 +36,7 @@ a poder crear entornos para realizar tareas de simulación o hacking ético.
 * Controlador de versiones: Git + una carpeta extra en github.
 * Libro de mi biblioteca de confianza [Debian GNU/Linux](https://www.llibrerialagralla.cat/llibre-tecnic/454097-debian-gnulinux-guia-practica.html)
 * Documentación oficial : [Debian](https://www.debian.org/doc/manuals/debian-reference/debian-reference.es.pdf)
+* Mini tutorial para cambiar las contraseñas [Root](https://www.hostinger.es/tutoriales/cambiar-contrasena-linux) y [User](https://nordpass.com/es/blog/how-to-change-password-linux/)
 
 ## Empecemos
 
