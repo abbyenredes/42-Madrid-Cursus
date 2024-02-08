@@ -72,3 +72,10 @@ Cambiar nombre de usuario:
 
 Borrar usuario:
 ```deluser --remove-home tester42```
+
+
+Cambiar las politicas de contraseñas
+```change -m x user```
+
+visualizar las politicas de contraseñas
+```change -l root```
