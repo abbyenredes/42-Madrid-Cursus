@@ -50,6 +50,7 @@ a poder crear entornos para realizar tareas de simulación o hacking ético.
 * Implementar una política de contraseñas fuerte.
 * Instalar y configurar sudo siguiendo reglas estrictas.
 * Crear un script sencillo llamado monitoring.sh. Debe estar desarrollado en bash.
+
 ### Mi paso a paso
 
 > [!WARNING]
@@ -89,7 +90,7 @@ Una vez comprendido el que y para que, vamos con los tipos:
 >> 7º las habitaciones son los programas y librerias que usaremos en nuestra maquina virtual.
 >>
 
-> Tipo 2: usado para entornos de prueba y desarrollo de software (este es el que usaremos en este proyecto)
+> Tipo 2: usado para entornos de prueba y desarrollo de software (este es el que usaremos en este proyecto), el hipervisor se instala sobre el sistema operativo.
 >>
 >> 1º tenemos nuestro hardware como ese gran cimiento.
 >>
@@ -104,7 +105,12 @@ Una vez comprendido el que y para que, vamos con los tipos:
 >> 6º las paredes de esas viviendas como el sistema operativo que vamos a utilizar en nuestra maquina virtual, en el caso de este proyecto nuestro querido Debian.
 >>
 >> 7º las habitaciones como los programas y librerias.
->> 
+>>
+
+> Contenedores (este tema lo tratare mas adelante cuando llegue a Docker, ahora mismo no es relevante).
+
+#### Elige el sistema operativo de tu maquina virtual
+Nos proponen 2 sistemas operativos: Debian y Rocky
   
 #### Crear una cuenta de usuario adicional:
 
