@@ -64,6 +64,48 @@ Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea
 > Si vas a realizar el bonus debes configurar tus particiones desde el principio, si no te va a tocar rehacer el proyecto.
 
 
+![MV](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/MV.jpg)
+
+Para tener un mapa mas claro de este proyecto decidi realizar esta pequeña ilustración, vamos a profundizar en ella:
+
+Empezecemos por el concepto de maquina virtual: Simular mediante software algún recurso tecnologíco fisico, en pocas palabras es como tener varios ordenadores dentro de nuestro equipo. Son muy utiles para la creación y pruebas de software, también lo usamos para aislar un software y allí realizar pruebas de malware y procesos de ciberseguridad. Y mi parte favorita la de optimización de recursos y aquí te contaré una pequeña anecdota, cuando estuve aprendiendo C# el hardware de allí no era muy bueno y usamos virtual box para poder crear programas sin que nuestra ram real explotara.
+
+Una vez comprendido el que y para que, vamos con los tipos:
+> Tipo 1: usados para cloud, su gran diferencia es que el hipervisor esta instalado directamente en la capa del kernel, sigue leyendo y lo comprenderas.
+>> Vamos con la imagen, mi ejemplo es con un edificio, así lo comprendí mas facil.
+>> 
+>> 1º tenemos nuestro hardware y el cimiento de todo, también llamado equipo fisico-ordenador.
+>> 
+>> 2º todo edificio tiene un cuarto de contadores y caldera, este seria nuestro kernel(el motor que hace que funcione nuestro ordenador).
+>> 
+>> 3º el hipervisor es el administrador de ese edificio, él que vela por que todo funcione como debe y el que cuida que ningun programa use más recursos de lo debido.
+>>
+>> 4º Y aquí ya estamos dentro de nuestra maquina virtual, imaginala como un piso-departamento.
+>>
+>> 5º todo piso tiene su propio calentador y contador, este es el kernel de nuestra maquina virtual.
+>> 
+>> 6º las paredes y pilares son nuestro sistema operativo que viene por defecto, ya sabes IOS, Linux, Windows xp...
+>> 
+>> 7º las habitaciones son los programas y librerias que usaremos en nuestra maquina virtual.
+>>
+
+> Tipo 2: usado para entornos de prueba y desarrollo de software (este es el que usaremos en este proyecto)
+>>
+>> 1º tenemos nuestro hardware como ese gran cimiento.
+>>
+>> 2º nuestro cuarto de contadores como ese kernel que hace que nuestro edificio tenga los servicios basicos.
+>>
+>> 3º la fachada del edificio también conocido como sistema operativo.
+>>
+>> 4º nuestro hipervisor que gestiona los recursos.
+>>
+>> 5º el kernel como la caldera o calentador individual de cada vivienda.
+>>
+>> 6º las paredes de esas viviendas como el sistema operativo que vamos a utilizar en nuestra maquina virtual, en el caso de este proyecto nuestro querido Debian.
+>>
+>> 7º las habitaciones como los programas y librerias.
+>> 
+  
 #### Crear una cuenta de usuario adicional:
 
 Añadir usuario:
