@@ -85,7 +85,7 @@ Una vez comprendido el que y para que, vamos con los tipos:
 >>
 >> 5º todo piso tiene su propio calentador y contador, este es el kernel de nuestra maquina virtual.
 >> 
->> 6º las paredes y pilares son nuestro sistema operativo que viene por defecto, ya sabes IOS, Linux, Windows xp...
+>> 6º las paredes y pilares son nuestro sistema operativo, ya sabes IOS, Linux, Windows xp...
 >> 
 >> 7º las habitaciones son los programas y librerias que usaremos en nuestra maquina virtual.
 >>
@@ -111,7 +111,17 @@ Una vez comprendido el que y para que, vamos con los tipos:
 
 #### Elige el sistema operativo de tu maquina virtual
 Nos proponen 2 sistemas operativos: Debian y Rocky
-  
+![devian vs rocky](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/devian%20vs%20rocky.jpg)
+
+Como no tengo experiencia en administración de sistemas me voy por la vieja confiable y uso Devian en este proyecto. Recuerda descargar la última versión estable de este sistema operativo.
+
+Después de esto vamos a aprender acerca de AppArmor y de paso conoceremos un poquito de SELinux y una comparativa de ambos.
+AppArmor se podria decir que es el conserje o portero de nuestra maquina virtual, que controla que zonas comunes pueden usar los propietarios y visitante y cuales no(en este caso los programas serian esos visitantes), SELinux es un conserje muy extricto que dependiendo de las ordenes que le digamos, pondra mas o menos restricciones.
+![Apparmor](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/MAC.jpg)
+
+#### Vamos a instalar nuestra maquina virtual
+
+Recuerda hacerlo en tu carpetas sgoifre, si vas a realizar el bonus debes darle 30GB de espacio en lugar de 12GB, también has de realizar las particiones manualmente
 #### Crear una cuenta de usuario adicional:
 
 Añadir usuario:
