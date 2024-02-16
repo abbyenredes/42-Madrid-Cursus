@@ -119,9 +119,25 @@ Después de esto vamos a aprender acerca de AppArmor y de paso conoceremos un po
 AppArmor se podria decir que es el conserje o portero de nuestra maquina virtual, que controla que zonas comunes pueden usar los propietarios y visitante y cuales no(en este caso los programas serian esos visitantes), SELinux es un conserje muy extricto que dependiendo de las ordenes que le digamos, pondra mas o menos restricciones.
 ![Apparmor](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/MAC.jpg)
 
+> [!note]
+> ejecuta el comando ```aa -status``` para comprobar que se esta ejecutando.
 #### Vamos a instalar nuestra maquina virtual
 
-Recuerda hacerlo en tu carpetas sgoifre, si vas a realizar el bonus debes darle 30GB de espacio en lugar de 12GB, también has de realizar las particiones manualmente
+Recuerda hacerlo en tu carpetas sgoinfre, si vas a realizar el bonus debes darle 30GB de espacio en lugar de 12GB, también has de realizar las particiones manualmente.
+
+¿Qué son las particiones de volumenes lógicos(LVM)?
+
+Es la creación de uno o más regiones de almacenamiento, de modo que se puedan administrar por separado.
+En Debian se designan así: sdXN --> donde X = nombre de ese espacio en el disco. N = número de la partición en ese disco.
+Ejemplo: sda3 --> para la tercera partición del disco a.
+Entonces pensemos en LVM como particiones dinamicas, esto quiere decir que nosotros podemos crear/dimensionar/eliminar "particiones". 
+![particiones LVM](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/fraccionamiento%20con%20LVM.jpg)
+
+Recuerda seguir el tutorial para instalar perfectamente tu maquina virtual. Una vez que la tengas vuelve aquí para seguir aprendiendo sobre este proyecto.
+
+#### Usando ATP
+También conocido como el instalador de paquetes, lo vamos a usar mucho desde instalar ssh hasta nuestro editor de texto de confianza(vim-nano).
+![ATP](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/APT.jpg)
 #### Crear una cuenta de usuario adicional:
 
 Añadir usuario:
