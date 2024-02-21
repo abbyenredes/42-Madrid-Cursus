@@ -107,7 +107,7 @@ Una vez comprendido el que y para que, vamos con los tipos:
 
 #### Elige el sistema operativo de tu maquina virtual
 Nos proponen 2 sistemas operativos: Debian y Rocky
-![devian vs rocky](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/devian%20vs%20rocky.jpg)
+![debian vs rocky](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/debian%20vs%20rocky.jpg)
 
 Como no tengo experiencia en administración de sistemas me voy por la vieja confiable y uso Devian en este proyecto. Recuerda descargar la última versión estable de este sistema operativo. El archivo que obtendremos es de tipo .iso, lo que significa que es un clon exacto del cd(imagen-archivo)del sistema operativo de debian, este archivo contiene todo lo necesario para su instalación.
 
