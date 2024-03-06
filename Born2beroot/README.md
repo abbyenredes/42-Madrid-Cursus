@@ -61,7 +61,7 @@ Sin más preámbulos comencemos:
 
 Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea de ayuda >> [tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
 
-![MV](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/MV.jpg)
+![MV](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/MV.jpg)
 
 Para tener un mapa mas claro de este proyecto decidi realizar esta pequeña ilustración, vamos a profundizar en ella:
 
@@ -107,7 +107,7 @@ Una vez comprendido el que y para que, vamos con los tipos:
 
 #### Elige el sistema operativo de tu maquina virtual
 Nos proponen 2 sistemas operativos: Debian y Rocky
-![debian vs rocky](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/debian%20vs%20rocky.jpg)
+![debian vs rocky](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/debian%20vs%20rocky.jpg)
 
 Como no tengo experiencia en administración de sistemas me voy por la vieja confiable y uso Devian en este proyecto. Recuerda descargar la última versión estable de este sistema operativo. El archivo que obtendremos es de tipo .iso, lo que significa que es un clon exacto del cd(imagen-archivo)del sistema operativo de debian, este archivo contiene todo lo necesario para su instalación.
 
@@ -120,13 +120,13 @@ Es un software(programa) que crea una o más regiones de almacenamiento, de modo
 En Debian se designan así: sdXN --> donde X = nombre de ese espacio en el disco. N = número de la partición en ese disco.
 Ejemplo: sda3 --> para la tercera partición del disco a.
 Entonces pensemos en LVM como particiones dinamicas, esto quiere decir que nosotros podemos crear/dimensionar/eliminar "particiones". 
-![particiones LVM](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/fraccionamiento%20con%20LVM.jpg)
+![particiones LVM](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/fraccionamiento%20con%20LVM.jpg)
 
 Recuerda seguir el tutorial para instalar perfectamente tu maquina virtual. Una vez que la tengas vuelve aquí para seguir aprendiendo sobre este proyecto.
 
 Después de esto vamos a aprender acerca de AppArmor y de paso conoceremos un poquito de SELinux y una comparativa de ambos.
 AppArmor se podria decir que es el conserje o portero de nuestra maquina virtual, que controla que zonas comunes pueden usar los propietarios y visitantes y cuales no(en este caso los programas serian esos visitantes), SELinux es un conserje muy extricto que dependiendo de las ordenes que le digamos, pondra mas o menos restricciones.
-![Apparmor](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/MAC.jpg)
+![Apparmor](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/MAC.jpg)
 
 > [!note]
 > ejecuta el comando ```aa -status``` para comprobar que se esta ejecutando.
@@ -134,7 +134,7 @@ AppArmor se podria decir que es el conserje o portero de nuestra maquina virtual
 
 #### Usando ATP
 También conocido como el instalador de paquetes, lo vamos a usar mucho desde instalar ssh hasta nuestro editor de texto de confianza(vim-nano).
-![ATP](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/doc/APT.jpg)
+![ATP](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/APT.jpg)
 #### Crear una cuenta de usuario adicional:
 
 Añadir usuario:
