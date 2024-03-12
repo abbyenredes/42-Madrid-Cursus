@@ -72,7 +72,12 @@ Primero me documente sobre el comportamiento de prinf, aqui un pequeño resumen:
 
 | Flags | Descripción |
 | ------------- | ------------- |
-| -0. | v |
-| field minimum width | v |
 | # | El valor se convierte a un formato alternativo si se define éste para la conversión seleccionada. Los formatos alternativos para las conversiones se describen junto con la conversión correspondiente. |
 | + | Inicia siempre la salida con el signo + o − para los valores numéricos. Por defecto sólo aparece el signo − para los valores negativos. |
+
+| Funciones variádicas | Descripción |
+| ------------- | ------------- |
+| va_start | Esto permite el acceso a los argumentos de la función variádica. |
+| va_arg |Éste accede al siguiente argumento de la función variádica. |
+| va_copy | Esto hace una copia de los argumentos de la función variádica. |
+| va_end | Esto finaliza el recorrido de los argumentos de la función variádica. |
