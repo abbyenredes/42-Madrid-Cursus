@@ -36,6 +36,7 @@ Para más adelante usarla a medida, según los requerimientos del proyecto.
 * Diccionario de C: [C estándar](https://www.popularlibros.com/libro/programacion-c-estandar_169422) yo lo consegui en mi biblioteca de confianza.
 * Libro-curso de c/c++: [curso de progamación c/c++](https://anayamultimedia.es/libro/manuales-imprescindibles/c-cmasmas-curso-de-programacion-miguel-angel-acera-garcia-9788441539372/) también de mi biblioteca de confianza.
 * Documentación sobre printf: [UC3M](https://www.it.uc3m.es/pbasanta/asng/course_notes/input_output_printf_es.html), [los secretos de printf](https://algoritmos9511.gitlab.io/_downloads/1957137bc70fc4a237497050cfc49c7f/los-secretos-de-printf.pdf), [funcion prinf en c](https://www.pcresumen.com/menu-software/36-lenguajes-de-programacion/c/113-la-funcion-printf-en-c)
+* Acerca de las variables variádicas: [Var_](https://barcelonageeks.com/funciones-variadicas-en-c/)
 
 ## Empecemos
 
