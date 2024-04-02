@@ -1,0 +1,72 @@
+#include "ft_printf.h"
+
+size_t	ft_putchar(char c)
+{
+	write (1, &c, 1);
+	return (1);
+}
+
+size_t	ft_putstr(char *str)
+{
+	size_t	i;
+
+	if (!str)
+	{
+		ft_putstr("(null)");
+		return (6);
+	}
+	i = -1;
+	while (str[++i])
+		write(1, &str[i], 1);
+	return (i);
+}
+
+size_t	flag_type(va_list args, char const str)
+{
+	size_t	i;
+
+	i = 0;
+	if (str == 'c')
+		return (ft_putchar(va_arg(args, size_t)));
+	else if (str == 's')
+		return (ft_putstr(va_arg(args, char *)));
+	else if (str == 'p')
+		return (ft_pointer(va_arg(args, unsigned long long), &i, "0123456789abcdef"));
+	else if (str == 'd' || str == 'i')
+		return (ft_putnbr(va_arg(args, size_t), &i));
+	else if (str == 'u')
+		return (ft_putnbr_unsigned(va_arg(args, unsigned int), &i));
+	else if (str == 'x')
+		return (ft_putnbr_hex(va_arg(args, unsigned int), &i, \
+		"0123456789abcdef"));
+	else if (str == 'X')
+		return (ft_putnbr_hex(va_arg(args, unsigned int), &i, \
+		"0123456789ABCDEF"));
+	else if (str == '%')
+		return (ft_putchar('%'));
+	return (0);
+}
+
+int	ft_printf(char const *str, ...)
+{
+	size_t	printed_char;
+	va_list	args;
+	size_t	i;
+
+	i = 0;
+	printed_char = 0;
+	va_start(args, str);
+	while (str[i])
+	{
+		if (str[i] == '%')
+		{
+			printed_char += flag_type(args, str[i + 1]);
+			i++;
+		}
+		else
+			printed_char += ft_putchar(str[i]);
+		i++;
+	}
+	va_end(args);
+	return ((int) printed_char);
+}
