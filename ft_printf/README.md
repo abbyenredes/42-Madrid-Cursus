@@ -27,7 +27,7 @@ Se trata de replicar la famosa función printf.
 Para más adelante usarla a medida, según los requerimientos del proyecto.
 
 ### Estado del proyecto
-**:construction: Proyecto en construcción :construction:**
+**:white_check_mark: Proyecto finalizdo :white_check_mark:**
 
 ### Mis herramientas
 
