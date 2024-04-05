@@ -18,7 +18,6 @@
       </ul>
     </li>
     <li><a href="#Pongamoslo-a-prueba">Pongamoslo a prueba</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
   </ol>
 </details>
 
@@ -122,6 +121,9 @@ Ejemplo: sda3 --> para la tercera partición del disco a.
 Entonces pensemos en LVM como particiones dinamicas, esto quiere decir que nosotros podemos crear/dimensionar/eliminar "particiones". 
 ![particiones LVM](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/fraccionamiento%20con%20LVM.jpg)
 
+> [!note]
+> para ver las particiones ejecuta el comando ```lsblk```
+
 Recuerda seguir el tutorial para instalar perfectamente tu maquina virtual. Una vez que la tengas vuelve aquí para seguir aprendiendo sobre este proyecto.
 
 Después de esto vamos a aprender acerca de AppArmor y de paso conoceremos un poquito de SELinux y una comparativa de ambos.
@@ -135,19 +137,89 @@ AppArmor se podria decir que es el conserje o portero de nuestra maquina virtual
 #### Usando ATP
 También conocido como el instalador de paquetes, lo vamos a usar mucho desde instalar ssh hasta nuestro editor de texto de confianza(vim-nano).
 ![ATP](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/APT.jpg)
-#### Crear una cuenta de usuario adicional:
+
+### Comandos que vas a usar:
+
+#### Crear usuarios y grupos:
 
 Añadir usuario:
 ```adduser tester40```
+
 Cambiar nombre de usuario:
 ```usermod -l tester42 tester40```
 
 Borrar usuario:
 ```deluser --remove-home tester42```
 
+Agregar un nuevo grupo:
+```addgroup 42madrid```
 
-Cambiar las politicas de contraseñas
+Agregar un usuario a x grupo:
+```adduser tester42 42madrid```
+
+Borrar un usuario de x grupo:
+```deluser --remove tester42 42madrid```
+
+Comprobar a que grupos pertenece x usuario:
+```sudo groups tester42```
+
+Agregar usuario a sudo:
+```adduser tester42 sudo```
+
+#### ssh
+
+Comprobar que esta instalado:
+```which ssh```
+
+Comprobar que esta activo en el puerto 4242:
+```sudo service ssh status```
+o
+```sudo systemctl status ssh```
+
+Conectarse desde la terminal real:
+```ssh tester42@localhost -p 4242```
+
+#### UFW
+
+Comprobar que existe:
+```dpkg -s ufw```
+
+Comprobar que esta activo:
+```sudo service ufw status```
+o
+```sudo systemctl status ufw```
+
+Agregar x puertos:
+```sudo ufw allow 4242```
+
+Borrar x puerto:
+```sudo ufw delete allow 4242```
+
+#### Hostname
+
+Cambiar hostname:
+```nano /etc/hostname```
+
+Cambiar hosts:
+```nano /etc/hosts```
+
+#### Política de contraseñas
+
+Cambiar las políticas de contraseñas
 ```change -m x user```
 
-visualizar las politicas de contraseñas
+visualizar las políticas de contraseñas
 ```change -l root```
+
+#### Crontab
+
+Modificar crontab:
+```sudo crontab -u root -e```
+
+Parar crontab:
+```sudo /etc/initid/cron stop```
+
+Iniciar crontab:
+```sudo /etc/initid/cron start```
+
+## Pongamoslo a prueba
