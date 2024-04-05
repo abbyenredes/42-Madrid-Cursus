@@ -1,24 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abigamas <abigamas@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/03/12 14:12:29 by abigamas          #+#    #+#             */
+/*   Updated: 2024/04/05 20:20:17 by abigamas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 size_t	ft_putchar(char c)
 {
 	write (1, &c, 1);
 	return (1);
-}
-
-size_t	ft_putstr(char *str)
-{
-	size_t	i;
-
-	if (!str)
-	{
-		ft_putstr("(null)");
-		return (6);
-	}
-	i = -1;
-	while (str[++i])
-		write(1, &str[i], 1);
-	return (i);
 }
 
 size_t	flag_type(va_list args, char const str)
@@ -31,7 +28,8 @@ size_t	flag_type(va_list args, char const str)
 	else if (str == 's')
 		return (ft_putstr(va_arg(args, char *)));
 	else if (str == 'p')
-		return (ft_pointer(va_arg(args, unsigned long long), &i, "0123456789abcdef"));
+		return (ft_hex_pointer(va_arg(args, unsigned long long), &i, \
+		"0123456789abcdef", 'p'));
 	else if (str == 'd' || str == 'i')
 		return (ft_putnbr(va_arg(args, size_t), &i));
 	else if (str == 'u')

@@ -1,26 +1,31 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -Werror
-AR = ar -rcs
 NAME = libftprintf.a
-RM = rm -rf
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra
+INCLUDE = ft_printf.h
+AR = ar -rcs
+RM = rm -f
+SRC = ft_printf.c\
+		ft_printf_utils.c\
 
-CFILES = ft_printf.c utils.c
-OBJS = $(CFILES:.c=.o)
+OBJS = $(SRC:%.c=%.o)
 
-all:        $(NAME)
-
-$(NAME):	$(OBJS)
-			@$(AR) $(NAME) $(OBJS)
+all:  $(NAME)
 
 %.o:%.c
-			$(CC) $(CFLAGS) -c $^ -o $@
-		
-re:     	fclean all
+	$(CC) $(CFLAGS) -c $< -o $@
 
-fclean:     clean
-			@$(RM) $(NAME)
+$(NAME): $(OBJS) $(INCLUDE)
+	 @echo "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ Compilando, espere unos segundos..."
+	$(AR) $(NAME) $(OBJS)
 
 clean:
-			@$(RM) $(OBJS)
+	$(RM) $(OBJS)
+	$(RM) $(BOBJ)
 
-.PHONY: all re fclean clean
+fclean: clean
+	$(RM) $(NAME)
+	 @echo "(╯°□°）╯︵ ┻━┻ todo limpio por aquí!"
+
+re: fclean all
+
+.PHONY: all clean fclean re

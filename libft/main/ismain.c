@@ -6,7 +6,7 @@
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/25 21:22:09 by abigamas          #+#    #+#             */
-/*   Updated: 2023/09/25 21:22:16 by abigamas         ###   ########.fr       */
+/*   Updated: 2024/03/14 21:38:42 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
  int main(void)
 {
-	unsigned char c = '\n';
+	unsigned char c = 'A';
 
-	printf("%d", ft_isprint(c));
+	printf("%d", ft_isalpha(c));
 	return (0);
 }
