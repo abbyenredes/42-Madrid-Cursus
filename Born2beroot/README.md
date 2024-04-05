@@ -28,7 +28,7 @@ Ser capaz de configurar nuestro propio sistema operativo utilizando reglas estri
 a poder crear entornos para realizar tareas de simulación o hacking ético.
 
 ### Estado del proyecto
-**:construction: Proyecto en construcción :construction:**
+**:white_check_mark: Proyecto finalizdo :white_check_mark:**
 
 ### Mis herramientas
 
