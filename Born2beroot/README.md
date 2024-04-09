@@ -131,7 +131,7 @@ AppArmor se podria decir que es el conserje o portero de nuestra maquina virtual
 ![Apparmor](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/MAC.jpg)
 
 > [!note]
-> ejecuta el comando ```aa -status``` para comprobar que se esta ejecutando.
+> ejecuta el comando ```aa-status``` para comprobar que se esta ejecutando.
 #### Vamos a instalar nuestra maquina virtual
 
 #### Usando ATP
@@ -217,9 +217,9 @@ Modificar crontab:
 ```sudo crontab -u root -e```
 
 Parar crontab:
-```sudo /etc/initid/cron stop```
+```sudo /etc/init.d/cron stop```
 
 Iniciar crontab:
-```sudo /etc/initid/cron start```
+```sudo /etc/init.d/cron start```
 
 ## Pongamoslo a prueba
