@@ -143,22 +143,22 @@ También conocido como el instalador de paquetes, lo vamos a usar mucho desde in
 #### Crear usuarios y grupos:
 
 Añadir usuario:
-```adduser tester40```
+```sudo adduser tester40```
 
 Cambiar nombre de usuario:
-```usermod -l tester42 tester40```
+```sudo usermod -l tester42 tester40```
 
 Borrar usuario:
-```deluser --remove-home tester42```
+```sudo deluser --remove-home tester42```
 
 Agregar un nuevo grupo:
-```addgroup 42madrid```
+```sudo addgroup 42madrid```
 
 Agregar un usuario a x grupo:
-```adduser tester42 42madrid```
+```sudo adduser tester42 42madrid```
 
 Borrar un usuario de x grupo:
-```deluser --remove tester42 42madrid```
+```sudo deluser --remove tester42 42madrid```
 
 Comprobar a que grupos pertenece x usuario:
 ```sudo groups tester42```
@@ -201,10 +201,10 @@ Borrar x puerto:
 #### Hostname
 
 Cambiar hostname:
-```nano /etc/hostname```
+```sudo nano /etc/hostname```
 
 Cambiar hosts:
-```nano /etc/hosts```
+```sudo nano /etc/hosts```
 
 #### Política de contraseñas para root y tu user(user42)
 
