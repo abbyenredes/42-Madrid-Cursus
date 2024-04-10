@@ -82,3 +82,28 @@ Primero me documente sobre el comportamiento de prinf, aqui un pequeño resumen:
 | va_arg |Éste accede al siguiente argumento de la función variádica. |
 | va_copy | Esto hace una copia de los argumentos de la función variádica. |
 | va_end | Esto finaliza el recorrido de los argumentos de la función variádica. |
+
+> [!NOTE]
+> Gracias a las funciones variádicas vamos a poder crear nuestras reglas para elaborar este proyecto.
+
+#### Reutilizar funciones de la libft
+
+Recuerdas nuestra querida [libft](), es momento de reutilizar algunas funciones, mi recomendación personal es que intentemos ponerlas en un solo archivo c, recuerda que la norma establece que no debe haber más de 5 funciones por archivo.
+
+#### Funciones recicladas:
+
+| Funciones | Descripción | Arreglos | Usos |
+| ------------- | ------------- | ------------ | ---------- |
+| ft_putchar | Escribe un carácter | Aqui le quite el argumento fd  ya que de momento no lo necesito, y en el return sustitui el fd por 1 que es la salida estándar | Principalmenre lo use para que imprima el simbolo de % y para %c, luego es mi función auxiliar para las demas funciones|
+| ft_putstr | Escribe una cadena de caracteres | También le quite lo de fd, le agregue una comprobación en caso de que sea nulo, inicie el contador a -1 para asegurarme de imprimir desde la posicion 0 de la cadena hasta el \0, | Para %s y como auxiliar de la funcion para %p |
+| ft_putnbr | Escribe un número entero(int) | Agregue un puntero al prototipo, lo cual hace que retire el tipo de dato unsigned. Igual que con los demás elimine el fd sutituyendolo más adelante por mi puntero que me retornará el número en base 10. | Para %d y %i |
+
+#### Funciones nuevas:
+
+| Funciones | Descripción | Usos |
+| ------------- | ------------- | ------------ |
+| ft_putnbr_unsigned | Escribe un número entero sin signo | Tome de base el putnbr y su uso es para %u |
+| ft_putnbr_hex | Escribe un número hexadecimal en base 16 | Tome de base ft_putnbr_unsigned, agregue un argumento en el que especifico los hexadecimales, y cambio la base a 16. Su uso es para %x y %X. | 
+| ft_hex_pointer | Escribe un puntero en formato hexadecimal | Tome de base ft_putnbr_hex, al que le agregue el argumento "char c" para poder imprimir un "0x" antes del número, lo uso para %p |
+
+
