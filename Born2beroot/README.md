@@ -203,10 +203,12 @@ Cambiar hostname:
 Cambiar hosts:
 ```nano /etc/hosts```
 
-#### Política de contraseñas
+#### Política de contraseñas para root y tu user(user42)
 
 Cambiar las políticas de contraseñas
-```change -m x user```
+Para min dias ```change -m 2 user42```
+Para max dias ```change -M 30 user42```
+Para el aviso de la expiración de contraseña ```change -E 7 user42```
 
 visualizar las políticas de contraseñas
 ```change -l root```
