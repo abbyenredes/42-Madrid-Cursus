@@ -166,6 +166,7 @@ Comprobar a que grupos pertenece x usuario:
 Agregar usuario a sudo:
 ```adduser tester42 sudo```
 
+
 #### ssh
 
 Comprobar que esta instalado:
@@ -178,6 +179,7 @@ o
 
 Conectarse desde la terminal real:
 ```ssh tester42@localhost -p 4242```
+
 
 #### UFW
 
@@ -198,6 +200,8 @@ Agregar x puertos:
 Borrar x puerto:
 ```sudo ufw delete allow 4242```
 
+
+
 #### Hostname
 
 Cambiar hostname:
@@ -205,6 +209,7 @@ Cambiar hostname:
 
 Cambiar hosts:
 ```sudo nano /etc/hosts```
+
 
 #### Política de contraseñas para root y tu user(user42)
 
@@ -215,6 +220,7 @@ Para el aviso de la expiración de contraseña ```change -E 7 user42```
 
 visualizar las políticas de contraseñas
 ```change -l root```
+
 
 #### Crontab
 
@@ -227,4 +233,42 @@ Parar crontab:
 Iniciar crontab:
 ```sudo /etc/init.d/cron start```
 
+
 ## Pongamoslo a prueba
+
+### iniciando la maquina virtual
+
+![init](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/init2.gif)
+
+### Servicios activos
+
+![serv](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/servi2.gif)
+
+### Creando un nuevo usuario
+
+![user](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/user3.gif)
+
+### Usando la conexión ssh en nuestra terminal real
+
+![ssh](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/ssh2.gif)
+
+### Agregando puertos a ufw
+
+![ufw](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/ufw2.gif)
+
+### Modificando cron
+
+![cron](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/cron2.gif)
+
+### Bonus wordpress
+
+![init](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/wordpress2.gif)
+
+### Bonus openlite
+
+![init](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/doc/openlite.gif)
+
+
+### Mucha suerte creando tu maquina virtual
+
+![lucky](https://i.pinimg.com/originals/5b/6c/5a/5b6c5ab5d7ce92792c21ac7566775568.gif)
