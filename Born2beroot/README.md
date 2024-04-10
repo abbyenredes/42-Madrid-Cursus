@@ -189,6 +189,9 @@ Comprobar que esta activo:
 o
 ```sudo systemctl status ufw```
 
+Ver puertos activos:
+```sudo ufw status```
+
 Agregar x puertos:
 ```sudo ufw allow 4242```
 
