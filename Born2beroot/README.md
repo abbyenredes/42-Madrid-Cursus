@@ -58,7 +58,8 @@ a poder crear entornos para realizar tareas de simulación o hacking ético.
 
 Sin más preámbulos comencemos:
 
-Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea de ayuda >> [tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
+> [!TIP]
+> Un grandioso compi ya realizo un tutorial sobre esto, así que espero que te sea de ayuda >> [tutorial](https://github.com/gemartin99/Born2beroot-Tutorial)
 
 ![MV](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/Born2beroot/img/MV.jpg)
 
