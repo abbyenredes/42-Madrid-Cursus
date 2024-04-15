@@ -6,7 +6,7 @@
 /*   By: abigamas <abigamas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 17:46:54 by abigamas          #+#    #+#             */
-/*   Updated: 2023/11/15 19:42:14 by abigamas         ###   ########.fr       */
+/*   Updated: 2024/04/15 21:00:45 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,10 @@
 # include <unistd.h>
 # include <ctype.h>
 # include <stddef.h>
+# include <limits.h>
+# include <stdio.h>
 # include <stdlib.h>
+# include <stdarg.h>
 
 typedef struct s_list
 {
@@ -57,6 +60,14 @@ char	**ft_split(char const *s, char c);
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_strtrim(char const *s1, char const *set);
+int		ft_printf(char const *str, ...);
+size_t	ft_putstr(char *str);
+size_t	ft_putchar(char c);
+size_t	ft_putnbr_unsigned(unsigned int n, size_t *i);
+size_t	ft_putnbr(int n, size_t *i);
+size_t	ft_putnbr_hex(unsigned int nbr, size_t *i, char *base);
+size_t	flag_type(va_list args, char const str);
+size_t	ft_hex_pointer(unsigned long long nbr, size_t *i, char *base, char c);
 t_list	*ft_lstnew(void *content);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 int		ft_lstsize(t_list *lst);

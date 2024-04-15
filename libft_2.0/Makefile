@@ -37,7 +37,14 @@ SRC = ft_isalpha.c\
 	  ft_split.c\
 	  ft_striteri.c\
 	  ft_strmapi.c\
-	  ft_strtrim.c
+	  ft_strtrim.c\
+	  ft_printf.c\
+	  ft_putchar.c\
+	  ft_putstr.c\
+	  ft_putnbr.c\
+	  ft_putnbr_unsigned.c\
+	  ft_putnbr_hex.c\
+	  ft_hex_pointer.c
 
 BSRC=  ft_lstnew.c\
 	   ft_lstadd_front.c\
@@ -78,4 +85,4 @@ re: fclean all
 rebonus: fclean bonus
 
 .PHONY: all clean fclean re bonus rebonus
-
+.SILENT:
