@@ -6,7 +6,7 @@
 /*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/25 17:32:17 by abigamas          #+#    #+#             */
-/*   Updated: 2023/10/27 17:37:07 by abigamas         ###   ########.fr       */
+/*   Updated: 2024/04/16 15:55:30 by abigamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -25,7 +25,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	if (!dst)
 		return (NULL);
 	while (i < len)
-	{	
+	{
 		dst[i] = f(i, s[i]);
 		i++;
 	}
