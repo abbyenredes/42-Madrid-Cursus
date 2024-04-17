@@ -57,7 +57,7 @@ Si estas dando tus primeros pasos en el mundo del código te recomiendo que empi
 
 Sin más preámbulos comencemos:
 Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/Makefile), aqui te dejo un resumen que espero sea de ayuda:
-![Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
+![Makefile](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/El%20arte%20de%20hacer%20un%20Makefile.png)
 
 ##  Parte 1 - Funciones de libc
 
@@ -176,11 +176,11 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 
 ### parte de test
 
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/test.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/test.gif)
 
 ### Comprobamos que Makefile cumple los requerimientos
 
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/Makefile.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/Makefile.gif)
 
 ### Compilando algunas funciones
 
@@ -189,34 +189,34 @@ Mi primer paso fue generar el archivo [Makefile](https://github.com/abbyenredes/
 > si es en la misma carpeta ```gcc main.c -L. -lft```
 
 #### strrchr
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/strrchr.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/strrchr.gif)
 
 #### strdup
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/strdup.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/strdup.gif)
 
 #### substr
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/substr.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/substr.gif)
 
 #### strmapi
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/strmapi.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/strmapi.gif)
 
 #### split
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/split.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/split.gif)
 
 #### lstadd_front
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/lstadd_front.gif)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/lstadd_front.gif)
 
 ## Roadmap
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/1.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/2.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/3.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/3.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/4.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/5.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/6.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/7.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/8.jpg)
-![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft/docs/9.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/1.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/2.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/3.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/3.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/4.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/5.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/6.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/7.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/8.jpg)
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/docs/9.jpg)
 
 # Buena suerte con tu primera libreria
 
