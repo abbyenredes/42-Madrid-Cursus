@@ -15,5 +15,8 @@
 |        | ![ps](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/badges/push_swapn.png) [**push_swap**](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/05_push_swap)                                                                          |              C               | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899563) |   n/a   |
 |        | ![sl](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/badges/so_longn.png) [**so_long**](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/06_so_long)                                                                          |              C               | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/1899563) |   n/a   |
 
+> [!tip]
+> genera tu ssh ```ssh-keygen -t rsa```
+
 > [!IMPORTANT]
 > Badges creados por [ayogun](https://github.com/ayogun/42-project-badges)
