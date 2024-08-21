@@ -32,4 +32,5 @@ Se trata de aprender a usar señales UNIX creando un pequeño programa de interc
 
 
 ### Empecemos
-
+¿Alguna vez estuviste en un live de algún creador de contenido u streamer? 
+Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la pantalla de tu streamer. Algo así se siente realizar este proyecto, enviar un mensaje y que en menos de 1 milisegundo este en pantalla.
