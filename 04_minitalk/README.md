@@ -51,7 +51,7 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 - [x] crear un programa de comunicación en la forma de un cliente y un servidor.
 - [x] Proporcionar un Makefile para ejecutar dichos programas.
 - [x] Usar nuestra libft.
-- [ ] Se permite usar las siguientes funciones:
+- [x] Se permite usar las siguientes funciones:
 
 | Funciones | Descripción |
 | ------------- | ------------- |
@@ -62,11 +62,16 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 | sigaddset  | Añadir una señal específica a una máscara. `int sigaddset(sigset_t *set, int signal);` Las aplicaciones deben llamar a sigemptyset() o sigfillset() al menos una vez para cada objeto de tipo sigset_t antes de cualquier otro uso de ese objeto. `Si la señal se agrega correctamente al conjunto de señales, sigaddset() devuelve 0. Si la señal no es compatible, sigaddset() devuelve -1 y establece errno en EINVAL.` |
 | sigaction  | Capturar/manejar señales. `int sigaction(int signum, const struct sigaction *act, struct sigaction *oldact);` Una vez completado exitosamente, sigaction () devolverá 0; de lo contrario, se devolverá -1, se establecerá errno para indicar el error y no se instalará ninguna nueva función de captura de señales. |
 | kill  | Enviar una señal. `int kill(pid_t pid, int sig);` Si la operación se completa correctamente, se devolverá 0. De lo contrario, se devolverá -1 y se establecerá errno para indicar el error. |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| getpid  | Función para obtener la identificación del proceso pertenece a la libreria unistd.h  |
+| malloc | Función para reservar memoria  |
+| Free  | Función para liberar memoria  |
+| pause |  Función de la biblioteca estándar de C que hace que el proceso que realiza la llamada se suspenda hasta que se reciba una señal. El proceso permanece bloqueado hasta que se ejecuta un controlador de señal o se ignora la señal.  |
+| sleep  | Función en la biblioteca estándar de C que hace que el proceso que llama se duerma durante una cantidad específica de segundos.  |
+| usleep  | Función en la biblioteca estándar de C que hace que el proceso que realiza la llamada se suspenda durante una cantidad específica de microsegundos.  |
+| exit | Función de la biblioteca estándar de C que finaliza el proceso de llamada inmediatamente. Toma un argumento entero que especifica el estado de salida del proceso. Un valor de 0 indica una finalización exitosa, mientras que los valores distintos de cero indican un error.  |
 
+- [x] Luego de iniciar el servidor debe imprimir su PID.
+- [ ] El servidor debe mostrar la cadena con bastante rapidez
+- [ ] El servidor debería poder recibir cadenas de varios clientes en fila sin necesidad de reiniciarse.
+- [ ] La comunicación entre cliente y servidor debe realizarse únicamente mediante señales UNIX.
+- [ ] Sólo podemos utilizar estas dos señales: SIGUSR1 y SIGUSR2.
