@@ -50,7 +50,7 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 #### Prerequisitos
 - [x] crear un programa de comunicación en la forma de un cliente y un servidor.
 - [x] Proporcionar un Makefile para ejecutar dichos programas.
-- [x] Usar nuestra libft.
+- [x] Usar nuestra [libft](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/00_libft).
 - [x] Se permite usar las siguientes funciones:
 
 | Funciones | Descripción |
