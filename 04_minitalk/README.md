@@ -30,7 +30,9 @@ Se trata de aprender a usar señales UNIX creando un pequeño programa de interc
 
 ### Mis herramientas
 [acerca de las señales](http://profesores.elo.utfsm.cl/~agv/elo330/2s09/lectures/signals.html)
-
+[función signal](https://www.ibm.com/docs/es/i/7.5?topic=functions-signal-handle-interrupt-signals)
+[función signaction](https://pubs.opengroup.org/onlinepubs/009695399/functions/sigaction.html)
+[Manejo de señales](https://www.infor.uva.es/~fdiaz/so/doc/SO_PR04_20061115.pdf)
 
 
 ### Empecemos
@@ -55,6 +57,16 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 | ------------- | ------------- |
 | Write  | Función de escritura de la libreria unistd.h |
 | [ft_printf](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/libft_2.0/ft_printf.c)  | Nuestra función de escritura |
-| Signal | Content Cell  |
+| Signal | Permite a un programa elegir una de varias formas de manejar una señal de interrupción del sistema operativo o de la función raise(). `void (*signal (int signo, void (*func) (int)))(int);` `signo: es el nombre de la señal.` `func: puede ser la constante para usar la acción por defecto, o puede ser una función definida por el programa. El valor retornado es un puntero al manejador previamente instalado para esa señal.` |
+| sigemptyset | Iniciar una máscara de señales vacía `int sigemptyset(sigset_t *set);` Los conjuntos de señales se utilizan para manipular grupos de señales utilizados por otras funciones (como sigprocmask()) o para examinar conjuntos de señales devueltos por otras funciones (como sigpending()) `Si tiene éxito, sigemptyset() devuelve 0.` |
+| sigaddset  | Añadir una señal específica a una máscara. `int sigaddset(sigset_t *set, int signal);` Las aplicaciones deben llamar a sigemptyset() o sigfillset() al menos una vez para cada objeto de tipo sigset_t antes de cualquier otro uso de ese objeto. `Si la señal se agrega correctamente al conjunto de señales, sigaddset() devuelve 0. Si la señal no es compatible, sigaddset() devuelve -1 y establece errno en EINVAL.` |
+| sigaction  | Capturar/manejar señales. `int sigaction(int signum, const struct sigaction *act, struct sigaction *oldact);` Una vez completado exitosamente, sigaction () devolverá 0; de lo contrario, se devolverá -1, se establecerá errno para indicar el error y no se instalará ninguna nueva función de captura de señales. |
+| kill  | Enviar una señal. `int kill(pid_t pid, int sig);` Si la operación se completa correctamente, se devolverá 0. De lo contrario, se devolverá -1 y se establecerá errno para indicar el error. |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
