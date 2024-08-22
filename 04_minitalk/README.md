@@ -75,3 +75,9 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 - [ ] El servidor debería poder recibir cadenas de varios clientes en fila sin necesidad de reiniciarse.
 - [ ] La comunicación entre cliente y servidor debe realizarse únicamente mediante señales UNIX.
 - [ ] Sólo podemos utilizar estas dos señales: SIGUSR1 y SIGUSR2.
+
+#### Mi paso a paso
+
+> [!WARNING]
+> 
+> Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
