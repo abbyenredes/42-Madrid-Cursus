@@ -206,8 +206,12 @@ Depende si la imagen esta llena de información o solo un apoyo visual, elijo po
 ---
 
 ### Vídeos
+> [!TIP]
+>
+> personalmente uso windows (aunque soy fan de linux), con la combinación de estas teclas: `alt + windows + s` accedo a capturar pantalla, allí esta también la opción de capturar video. Luego edito la velocidad en [canva](https://www.canva.com/) para por último [convertirlo en gif](https://convertio.co/es/mp4-gif/) y subirlo aquí 
 
 
+Aquí te mostraré un ejemplo de como creo una nueva carpeta y la preparo para realizar mi documentación, para mi es importante agregar el archivo `README.md` para agregar mi documentación y una carpeta llamada `img` para añadir el contenido visual sin sobrecargar el proyecto, esto es para que quede lo mas limpio posible.
 
 
 
