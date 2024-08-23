@@ -81,3 +81,15 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 > [!WARNING]
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
+
+
+## Pongamoslo a prueba
+
+![](link)
+
+## Roadmap
+
+![](link)
+
+# Good Luck
+![](link)
