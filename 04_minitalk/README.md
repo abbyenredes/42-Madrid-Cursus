@@ -13,7 +13,7 @@
     <li>
       <a href="#Empecemos">Empecemos</a>
       <ul>
-        <li><a href="#prerequisitos">Prerequisitos</a></li>
+        <li><a href="#prerrequisitos">Prerrequisitos</a></li>
         <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
       </ul>
     </li>
@@ -33,6 +33,7 @@ Se trata de aprender a usar señales UNIX creando un pequeño programa de interc
 [función signal](https://www.ibm.com/docs/es/i/7.5?topic=functions-signal-handle-interrupt-signals)
 [función signaction](https://pubs.opengroup.org/onlinepubs/009695399/functions/sigaction.html)
 [Manejo de señales](https://www.infor.uva.es/~fdiaz/so/doc/SO_PR04_20061115.pdf)
+[Master class señales UNIX](https://www.youtube.com/watch?v=K4zCwlJOflo)
 
 
 ### Empecemos
@@ -47,7 +48,7 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
   </tr>
 </table>
 
-#### Prerequisitos
+#### Prerrequisitos
 - [x] crear un programa de comunicación en la forma de un cliente y un servidor.
 - [x] Proporcionar un Makefile para ejecutar dichos programas.
 - [x] Usar nuestra [libft](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/00_libft).
@@ -82,6 +83,14 @@ Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la 
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
+El reto del proyecto es programar un servidor que pueda recibir y mostrar mensajes de uno o varios clientes, utilizando solo dos señales UNIX. Debido a esta restricción, deberemos crear un sistema que pueda convertir los caracteres que deseamos enviar en una señal binaria, así como también poder reconvertir la señal en una string.
+
+Vamos a comprender que son las señales y para que sirven:
+
+Son una forma de comunicación entre procesos 
+Un buen ejemplo de señales es el comportamiento de `ctrl + c` a la hora de detener un bucle infinito en la pantalla, su equivalente en UNIX es SIGSTP o señal 20.
+
+Si ejecutamos el comando `kill -l` nos dará el listado de señales de UNIX (un total de 63)
 
 ## Pongamoslo a prueba
 
