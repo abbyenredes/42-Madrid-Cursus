@@ -205,6 +205,39 @@ Depende si la imagen esta llena de información o solo un apoyo visual, elijo po
 
 ---
 
+### Tablas
+
+Otro de mis recursos favoritos para poder ver el contenido de un solo vistazo son las tablas, lo use bastante en mi primer proyecto [libft](https://github.com/abbyenredes/42-Madrid-Cursus/tree/main/00_libft) y aquí te enseñaré a sacarle partido:
+
+| Función | Descripción |
+| ------------- | ------------- |
+| [función 1](link)  | Esta función te ayuda a ...  |
+| [Función 2](link)  | Con esta función podras ...  |
+
+> [!NOTE]
+>
+> Normalmente suelo usar tablas de 2 columnas pero si lo necesitas puedes usar de más.
+
+### Código
+
+Aquí me gusta sobretodo compartir los comandos que uso para que sea de facil acceso:
+
+`mkdir 07_minishell`
+
+También se puede compartir código entero, pero ya que lo subes en un archivo propio me parece demasiado, a no ser que necesites explicar algo sobre ese código que no se pueda comentar en el mismo.
+Ejemplo:
+
+```C
+#include <libft.h>
+int main() {
+  ft_printf("Hello, World!");
+   return 0;
+}
+```
+## Pongamoslo a prueba
+
+Esta sección la uso sobretodo para poner videos cortos poniendo a prueba mi proyecto:
+
 ### Vídeos
 > [!TIP]
 >
@@ -213,5 +246,287 @@ Depende si la imagen esta llena de información o solo un apoyo visual, elijo po
 
 Aquí te mostraré un ejemplo de como creo una nueva carpeta y la preparo para realizar mi documentación, para mi es importante agregar el archivo `README.md` para agregar mi documentación y una carpeta llamada `img` para añadir el contenido visual sin sobrecargar el proyecto, esto es para que quede lo mas limpio posible.
 
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/readme-kit/img/add_file.gif)
+
+---
+
+<table>
+  <tr>
+    <td>
+<img height="450" src="https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/readme-kit/img/add_file.gif" align="center">
+    </td>
+  </tr>
+</table>
+
+## Roadmap
+Esta sección es ideal para compartir pseudocódigo ya sea en forma de imagenes (escaneo de tus apuntes), también puedes realizar diagramas de flujo gracias a mermaid:
+
+```mermaid
+graph TB
+    A[Start] ==> B{Is it?};
+    B -->|Yes| C[OK];
+    C --> D[Rethink];
+    D -.-> B;
+    B ---->|No| E[End];
+```
+> [!NOTE]
+>
+> Te dejo este github donde recopila distintos diagramas con [mermaid](https://gist.github.com/ChristopherA/bffddfdf7b1502215e44cec9fb766dfd)
+
+---
+
+# Finalmente me gusta despedirme con algun gif cute
+![](https://images.hive.blog/p/7ohP4GDMGPrUi4oa8yTU7QwSHZ29mRt9qof85ejCza27d3zeZyzLjuaFchZPrpScFxgUXSi56AXGfhFYD1a6n4v5JEKiokrGwjyF?format=match&mode=fit)
+
+# Aquí no acaba esto
+Así es, esto no acaba porque nos queda lo más importante, compartir la plantilla definitiva para crear un buen readme:
+
+```
+# Titulo
+
+Índice:
+
+- [Acerca del proyecto](#Acerca-del-proyecto)
+  - [Estado del proyecto](#Estado-del-proyecto)
+  - [Mis herramientas](#Mis-herramientas)
+- [Empecemos](#Empecemos)
+  - [Prerrequisitos](#Prerrequisitos)
+  - [Mi paso a paso](#Mi-paso-a-paso)
+- [Pongamoslo a prueba](#Pongamoslo-a-prueba)
+- [Roadmap](#Roadmap)
+---
+  Versión contraida
+<details>
+  <summary>¿Que voy a encontrarme?</summary>
+  <ol>
+    <li>
+      <a href="#Acerca-del-proyecto">Acerca del proyecto</a>
+      <ul>
+        <li><a href="#estado-del-proyecto">Estado del proyecto</a></li>
+        <li><a href="#Mis-herramientas">Mis herramientas</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Empecemos">Empecemos</a>
+      <ul>
+        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
+      </ul>
+    </li>
+    <li><a href="#Pongamoslo-a-prueba">Pongamoslo a prueba</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+  </ol>
+</details>
+
+## Acerca del proyecto
+
+> esto
+> es
+> una
+> caja
+
+### Estado del proyecto
+:construction: Proyecto en construcción :construction:
+
+**:white_check_mark: Proyecto finalizdo :white_check_mark:**
+
+### Mis herramientas
+* descripción: [name](link)
+* descripción: [name](link)
+* descripción: [name](link)
+
+## Empecemos
+
+### Prerrequisitos
+
+- [X] Tarea completa.
+- [ ] Tarea pendiente.
+
+### Mi paso a paso
+
+> [!WARNING]
+> 
+> Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
+
+#### tipos de cuadros de texto:
+
+> [!NOTE]
+>
+> Lo uso para poner algún enlace de una información concreta.
+
+> [!TIP]
+>
+> Lo uso para destacar un truco que te facilitará la vida.
+
+> [!IMPORTANT]
+>
+> Para destacar información importante.
+
+> [!CAUTION]
+>
+> Resalto algún cambio de versión o si solo funciona para x sistema operativo.
+
+---
+### Imagenes
+
+**Diágrama**
+![Descripción](link)
+
+**imagen + texto plano**
+<table>
+  <tr>
+    <td>
+<p> 
+<img height="200" src="link" align="right">texto.</p>
+    </td>
+  </tr>
+</table>
+
+**Imagen + texto dinamico**
+
+<div>
+	<h2 align="left">Titulo</h2>
+		<!--  (img) -->
+	<div>
+		<div style="flex: 1; min-width: 150px;">
+		<img height="250" src="link-imagen" style="max-width: 100%; border-radius: 50%; object-fit: cover;" align="right"/>
+	</div>
+		<!-- doc (text) -->
+	<div style="min-width: 150px; ">
+		<p>
+	texto
+</p>
+	</div>
+  </div>
+</div>
+
+---
+
+### Tablas
+
+| Función | Descripción |
+| ------------- | ------------- |
+| [f1](link)  | -  |
+| [F2](link)  | - |
+
+---
+
+### Código
+
+`comandos`
+
+	```C <!--  (tipo de lenguaje) -->
+	código completo
+
+	```
+## Pongamoslo a prueba
+
+![](link)
+
+---
+
+<table>
+  <tr>
+    <td>
+<img height="450" src="link" align="center">
+    </td>
+  </tr>
+</table>
+
+## Roadmap
+
+![](link)
+
+	```mermaid
+	graph TB
+    	A[Start] ==> B{Is it?};
+    	B -->|Yes| C[OK];
+    	C --> D[Rethink];
+    	D -.-> B;
+    	B ---->|No| E[End];
+	```
+# Good Luck
+![](link)
+```
+
+¿Te parece muy largo?
+
+Vamos a resumirlo aun más
+> [!IMPORTANT]
+>
+> Si te ha sido util esta guía regalame una :star:.
+
+```
+#
+
+ Versión contraida
+<details>
+  <summary>¿Que voy a encontrarme?</summary>
+  <ol>
+    <li>
+      <a href="#Acerca-del-proyecto">Acerca del proyecto</a>
+      <ul>
+        <li><a href="#estado-del-proyecto">Estado del proyecto</a></li>
+        <li><a href="#Mis-herramientas">Mis herramientas</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Empecemos">Empecemos</a>
+      <ul>
+        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
+      </ul>
+    </li>
+    <li><a href="#Pongamoslo-a-prueba">Pongamoslo a prueba</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+  </ol>
+</details>
+
+## Acerca del proyecto
+
+### Estado del proyecto
+
+:construction: Proyecto en construcción :construction:
+
+### Mis herramientas
+* : []()
+* : []()
+
+## Empecemos
+
+### Prerrequisitos
+
+- [ ]
+- [ ]
+
+### Mi paso a paso
+
+> [!WARNING]
+> 
+> Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
+
+## Pongamoslo a prueba
+
+![](link)
+
+## Roadmap
+
+![](link)
+
+# Good Luck
+![](link)
+
+```
+---
+
+Ahora si que hemos llegado al final de esta guía, si hubiera cualquier errata, hazmelo saber.
+
+<table>
+  <tr>
+    <td>
+<img height="450" src="https://i.pinimg.com/originals/dd/ce/cd/ddcecdd4c7d29dc82920d1f98c120933.gif" align="center">
+    </td>
+  </tr>
+</table>
 
 
