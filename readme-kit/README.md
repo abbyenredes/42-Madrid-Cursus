@@ -118,11 +118,38 @@ Aquí me gusta poner mi bibliografía y enlaces utiles, para mi es importante da
 ## Empecemos
 
 ### Prerrequisitos
-En esta sección
+En esta sección suelo poner la laundry list para que el proyecto se pueda realizar, en este caso sería:
+- [x] Recopilar los patrones de mis anteriores documentaciones.
+- [X] Ver como puedo crear una plantilla efectiva.
+- [X] Encontrar un nombre divertido para esta carpeta.
+- [X] Recopilar las páginas que siempre consulto a la hora de realizar mi readme.
 
+ 
+### Mi paso a paso
+Aquí viene la parte más importante en la que ayudandome de texto y contenido visual (imagen, video, grafícos...), documento mi proyecto.
+Pero antes siempre me gusta poner un disclaimer por si la información quedase obsoleta o haya algún error `(estoy abierta a correcciones, así que si ves que en mi contenido hay algo erroneo no dudes en pedirme un fork o contactarme)`
 
+> [!WARNING]
+> 
+> Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
 
+#### Ya que estamos suelo usar este tipo de cuadros de texto así que vamos a ponerlos:
 
+> [!NOTE]
+>
+> Lo uso para poner algún enlace de una información concreta.
+
+> [!TIP]
+>
+> Lo uso para destacar un truco que te facilitará la vida.
+
+> [!IMPORTANT]
+>
+> Para destacar información importante.
+
+> [!CAUTION]
+>
+> Resalto algún cambio de versión o si solo funciona para x sistema operativo.
 
 
 
