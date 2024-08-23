@@ -151,9 +151,61 @@ Pero antes siempre me gusta poner un disclaimer por si la información quedase o
 >
 > Resalto algún cambio de versión o si solo funciona para x sistema operativo.
 
+---
+### Imagenes
+Depende si la imagen esta llena de información o solo un apoyo visual, elijo ponerla entera o si no dejarla en la parte derecha. 
 
+**Aquí un ejemplo:**
 
+**Diagrama**
 
+![imagen importante](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/readme-kit/img/Captura%20de%20pantalla%202024-03-15%20131411.png)
+
+---
+
+**Texto plano con una imagen**
+
+<table>
+  <tr>
+    <td>
+<p> 
+<img height="250" src="https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/readme-kit/img/Veterinaria-en-redes-2021-12-LI%20(1).jpg" align="right">Documentar tu código trae múltiples beneficios. Facilita la comprensión del propósito y funcionamiento del código, permitiendo a otros desarrolladores y a ti mismo entenderlo rápidamente. Mejora la integración de nuevos miembros en el proyecto, simplificando su adaptación y reduciendo el tiempo de aprendizaje. Además, facilita la evolución del código a medida que el proyecto crece, haciendo que las actualizaciones y expansiones sean más manejables. La documentación también acelera la depuración, ya que proporciona una referencia clara para identificar y corregir errores. Finalmente, asegura que el conocimiento sobre el proyecto se conserve a lo largo del tiempo, incluso con cambios en el equipo.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+**texto dinámico**
+
+<div>
+	<h2 align="left">Ventajas de Documentar tu Código 📘</h2>
+		<!-- Me (img) -->
+	<div>
+		<div style="flex: 1; min-width: 150px;">
+		<img height="250" src="https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/readme-kit/img/Veterinaria-en-redes-2021-12-LI%20(1).jpg" style="max-width: 100%; border-radius: 50%; object-fit: cover;" align="right"/>
+	</div>
+		<!-- doc (text) -->
+	<div style="min-width: 150px; ">
+		<p>
+
+- Claridad Instantánea: Facilita la comprensión del propósito y funcionamiento del código.
+      
+- Integración Rápida: Permite que nuevos desarrolladores se integren rápidamente al proyecto.
+
+- Evolución Simplificada: Facilita la adaptación y expansión del código a medida que el proyecto crece.
+
+- Depuración Eficiente: Acelera la identificación y corrección de errores.
+
+- Valor Duradero: Asegura que el conocimiento del proyecto perdure más allá de los cambios en el equipo.
+</p>
+	</div>
+  </div>
+</div>
+
+---
+
+### Vídeos
 
 
 
