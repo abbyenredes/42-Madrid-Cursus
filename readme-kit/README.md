@@ -459,7 +459,6 @@ Vamos a resumirlo aun más
 ```
 #
 
- Versión contraida
 <details>
   <summary>¿Que voy a encontrarme?</summary>
   <ol>
