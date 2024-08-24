@@ -87,10 +87,15 @@ El reto del proyecto es programar un servidor que pueda recibir y mostrar mensaj
 
 Vamos a comprender que son las señales y para que sirven:
 
-Son una forma de comunicación entre procesos 
-Un buen ejemplo de señales es el comportamiento de `ctrl + c` a la hora de detener un bucle infinito en la pantalla, su equivalente en UNIX es SIGSTP o señal 20.
+Son una forma de comunicación entre procesos, un buen ejemplo de señales es el comportamiento de `ctrl + c` a la hora de detener un bucle infinito en la pantalla, su equivalente en UNIX es SIGSTP o señal 20.
 
-Si ejecutamos el comando `kill -l` nos dará el listado de señales de UNIX (un total de 63)
+Si ejecutamos el comando `kill -l` nos dará el listado de señales de UNIX (un total de 64).
+
+Como ves sirve para detener o activar procesos, en nuestro caso queremos que el cliente envie un texto al servidor como si de un servidor de streaming se tratase y verlo reflejado en la pantalla. Pero para ello vamos a tener que convertir esa señal en binario.
+
+### Enviando señales de humo
+
+Este apartado lo he llamado así porque explicare gráficamente como se hará el cambio de char>ascii>binario y viceversa:
 
 ## Pongamoslo a prueba
 
