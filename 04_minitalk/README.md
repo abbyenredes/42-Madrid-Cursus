@@ -93,6 +93,15 @@ Si ejecutamos el comando `kill -l` nos dará el listado de señales de UNIX (un 
 
 Como ves sirve para detener o activar procesos, en nuestro caso queremos que el cliente envie un texto al servidor como si de un servidor de streaming se tratase y verlo reflejado en la pantalla. Pero para ello vamos a tener que convertir esa señal en binario.
 
+<table>
+  <tr>
+    <td>
+<img height="850" src="https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/Humo.png" align="center">
+    </td>
+  </tr>
+</table>
+
+
 ### Enviando señales de humo
 
 Este apartado lo he llamado así porque explicare gráficamente como se hará el cambio de char>ascii>binario y viceversa:
