@@ -372,6 +372,15 @@ Así es, esto no acaba porque nos queda lo más importante, compartir la plantil
 **Diágrama**
 ![Descripción](link)
 
+**Imagen centrada**
+<table>
+  <tr>
+    <td>
+<img height="450" src="link" align="center">
+    </td>
+  </tr>
+</table>
+
 **imagen + texto plano**
 <table>
   <tr>
