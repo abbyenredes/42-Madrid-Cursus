@@ -148,11 +148,27 @@ Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo
 </div>
 
 ### Servidor
-- [ ] Se lanzará primero y emitira su PID.
+- [x] Se lanzará primero y emitira su PID.
+![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/getpid__.gif)
+> [!NOTE]
+> Aún soy novata en enlazar mi propia libreria, así que demomento usare el siguiente comando:
+> ```
+> gcc server.c libft/ft_printf.c -L./libft -lft -o server
+> ```
+
+- [x] Solo se puede usar señales SIGUSR1, SIGUSR2.
+> SIGUSR1 y SIGUSR2
+> > Es una señal definida por el usuario para ser usada en programas de aplicación.
+> > En este caso lo usaremos como si de un bit se tratara, recuerdas el ejemplo de Bayta, la letra B corresponde al ASCII 66 y en binario es igual a 01000010. ¿Y si a SIGUSR1 le damos el valor de 1 y a SIGUSR2 el valor 0?
+> > Nos queda algo así : `SIGUSR2 SIGUSR1 SIGUSR2 SIGUSR2 SIGUSR2 SIGUSR2 SIGUSR1 SIGUSR2` 8 bits en señales de UNIX.
+
 - [ ] Mostrar la string rápido <=0,00001 seg.
 - [ ] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
-- [ ] Solo se puede usar señales SIGUSR1, SIGUSR2.
 
+### Cliente
+- [ ] Tomar como parámetros PID y string.
+Para el PID usaremos nuestra famosa función [ft_atoi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/ft_atoi.c), que convierte carácteres en números, y para recopilar la string  
+- [ ] Comunicar la string pasada como parámetro al servidor.
 ## Pongamoslo a prueba
 
 ![](link)
