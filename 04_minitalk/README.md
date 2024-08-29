@@ -162,7 +162,7 @@ Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo
 > > En este caso lo usaremos como si de un bit se tratara, recuerdas el ejemplo de Bayta, la letra B corresponde al ASCII 66 y en binario es igual a 01000010. ¿Y si a SIGUSR1 le damos el valor de 1 y a SIGUSR2 el valor 0?
 > > Nos queda algo así : `SIGUSR2 SIGUSR1 SIGUSR2 SIGUSR2 SIGUSR2 SIGUSR2 SIGUSR1 SIGUSR2` 8 bits en señales de UNIX.
 > > Pero esto no queda así, te mostraré como operar a nivel binario:
-> > ![binario](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/Binario.png)
+> > ![binario](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/calculo-Binario.png)
 
 - [ ] Mostrar la string rápido <=0,00001 seg.
 - [ ] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
