@@ -41,7 +41,7 @@ Se trata de aprender a usar señales UNIX creando un pequeño programa de interc
   <tr>
     <td>
 <p> 
-<img height="300" src="https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/01%20streamer.png" align="right">¿Alguna vez estuviste en un live de algún creador de contenido u streamer? 
+<img height="350" src="https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/01%20streamer.png" align="right">¿Alguna vez estuviste en un live de algún creador de contenido u streamer? 
 Si tu respuesta es afirmativa de seguro que le comentaste algo y aparecio en la pantalla de tu streamer. Algo así se siente realizar este proyecto, enviar un mensaje y que en menos de 1 milisegundo este en pantalla.
 </p>
     </td>
@@ -93,6 +93,10 @@ Si ejecutamos el comando `kill -l` nos dará el listado de señales de UNIX (un 
 
 Como ves sirve para detener o activar procesos, en nuestro caso queremos que el cliente envie un texto al servidor como si de un servidor de streaming se tratase y verlo reflejado en la pantalla. Pero para ello vamos a tener que convertir esa señal en binario.
 
+### Enviando señales de humo
+
+Este apartado lo he llamado así porque explicare gráficamente como se hará el cambio de char>ascii>binario y viceversa:
+
 <table>
   <tr>
     <td>
@@ -101,10 +105,44 @@ Como ves sirve para detener o activar procesos, en nuestro caso queremos que el 
   </tr>
 </table>
 
+En una terminal ejecutaremos el programa cliente, el cual debe recibir 2 parametros:
 
-### Enviando señales de humo
+> PID:
+> > Es un número único asignado a cada proceso en ejecución en un sistema operativo.
+> > Para conocer el PID basta con teclear el comando `ps u`
+> > ![show-PID](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/signal.gif)
+> >
+> > Cada vez que ejecutes un proceso el PID cambiará, algo así como los cvv dinámicos.
+> > También para conocer el PID podemos usar la función `getpid()`
+> > ![](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/getpid.gif)
+> >
 
-Este apartado lo he llamado así porque explicare gráficamente como se hará el cambio de char>ascii>binario y viceversa:
+> String
+> > Un texto cualquiera que se vea reflejado en la pantalla del servidor ejemplo "Bayta"
+> >
+
+<div>
+	<h2 align="left">Planteamiento</h2>
+		<!--  (img) -->
+	<div>
+		<div style="flex: 1; min-width: 150px;">
+		<img height="350" src="https://ih1.redbubble.net/image.5298226207.3692/raf,360x360,075,t,fafafa:ca443f4786.jpg" style="max-width: 100%; border-radius: 50%; object-fit: cover;" align="right"/>
+	</div>
+		<!-- doc (text) -->
+	<div style="min-width: 150px; ">
+		<p>
+	Una vez que el cliente se ha comunicado con el servidor gracias a su PID. Emite el mensaje "Bayta", el mismo que se codifica en ASCII, lo que da como resultado ``66 97 121 116 97``.
+      
+Pero esto aun no es entendido por el servidor por lo cual debe pasar un segundo proceso que es volverse binario. Nuestro programa debe emitir el mensaje completo así que el servidor debe esperar el mensaje completo y no ponerse a emitir letra por letra.
+
+Por eso usaremos la funcion `sigaction()` el cual capturará la señal completa, aun con la señal completa nuestro programa no debe devolver un binario, eso seria raro. Así que mientras releemos el binario y lo reconvertimos a ASCII usaremos `usleep()` para suspender momentaneamente el programa en lo que realizamos unos pequeños calculos de codificación, también nos ayudamos de `pause()` hasta volver a tener el mensaje "Bayta", con kill emitiremos el mensaje en el servidor, recuerda que no debe tardar demasiado. Bueno quien quiere un café?
+
+Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo que importa codificar.
+</p>
+	</div>
+  </div>
+</div>
+
 
 ## Pongamoslo a prueba
 
