@@ -164,13 +164,17 @@ Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo
 > > Pero esto no queda así, te mostraré como operar a nivel binario:
 > > ![binario](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/04_minitalk/img/calculo-Binario.png)
 
-- [ ] Mostrar la string rápido <=0,00001 seg.
+- [X] Mostrar la string rápido <=0,00001 seg.
+
+Mi programa tarda uslepp(500) en mostrar el mensaje.
+
 - [ ] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
 
 ### Cliente
-- [ ] Tomar como parámetros PID y string.
-Para el PID usaremos nuestra famosa función [ft_atoi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/ft_atoi.c), que convierte carácteres en números, y para recopilar la string  
-- [ ] Comunicar la string pasada como parámetro al servidor.
+- [X] Tomar como parámetros PID y string.
+
+Para el PID usaremos nuestra famosa función [ft_atoi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/ft_atoi.c), que convierte carácteres en números, y otra función que nos convierta nuestra string a binaria, la mia la llamaré ft_binary_conversion (aplico un poco de clean code).
+- [X] Comunicar la string pasada como parámetro al servidor.
 ## Pongamoslo a prueba
 
 ![](link)
