@@ -26,14 +26,18 @@
 Se trata de aprender a usar señales UNIX creando un pequeño programa de intercambio de datos (incluyendo unicode).
 
 ### Estado del proyecto
-**:white_check_mark: Proyecto finalizdo :white_check_mark:**
+:construction: Proyecto en construcción :construction:
 
 ### Mis herramientas
-[acerca de las señales](http://profesores.elo.utfsm.cl/~agv/elo330/2s09/lectures/signals.html)
-[función signal](https://www.ibm.com/docs/es/i/7.5?topic=functions-signal-handle-interrupt-signals)
-[función signaction](https://pubs.opengroup.org/onlinepubs/009695399/functions/sigaction.html)
-[Manejo de señales](https://www.infor.uva.es/~fdiaz/so/doc/SO_PR04_20061115.pdf)
-[Master class señales UNIX](https://www.youtube.com/watch?v=K4zCwlJOflo)
+* Todo sobre señales básicas: [Básico de señales](http://profesores.elo.utfsm.cl/~agv/elo330/2s09/lectures/signals.html).
+  
+* Aprende mas sobre signal: [función signal](https://www.ibm.com/docs/es/i/7.5?topic=functions-signal-handle-interrupt-signals).
+  
+* Sobre signation y sus multiples usos: [función signaction](https://pubs.opengroup.org/onlinepubs/009695399/functions/sigaction.html).
+
+* Aprende a manejar las señales UNIX: [Manejo de señales](https://www.infor.uva.es/~fdiaz/so/doc/SO_PR04_20061115.pdf).
+  
+* Aprende sobre procesos y señales en 1 hora: [Master class señales UNIX](https://www.youtube.com/watch?v=K4zCwlJOflo).
 
 
 ### Empecemos
@@ -143,6 +147,11 @@ Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo
   </div>
 </div>
 
+### Servidor
+- [ ] Se lanzará primero y emitira su PID.
+- [ ] Mostrar la string rápido <=0,00001 seg.
+- [ ] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
+- [ ] Solo se puede usar señales SIGUSR1, SIGUSR2.
 
 ## Pongamoslo a prueba
 
