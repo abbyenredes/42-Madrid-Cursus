@@ -17,8 +17,8 @@ BONUS_SRC_C = bonus_client.c
 BONUS_OBJS_S = $(BONUS_SRC_S:%.c=%.o)
 BONUS_OBJS_C = $(BONUS_SRC_C:%.c=%.o)
 
-LIBFT_DIR = libft
-LIBFT = $(LIBFT_DIR)/libft.a
+LIBFT = libft.a
+LIBFT_DIR = ./libft/
 
 	
 all:  $(NAME_S) $(NAME_C)
@@ -26,15 +26,15 @@ all:  $(NAME_S) $(NAME_C)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-$(NAME_S): $(OBJS_S) $(LIBFT)
-	$(CC) $(CFLAGS) $(OBJS_S) -L$(LIBFT_DIR) -lft -o $@
+$(NAME_S): $(OBJS_S) $(LIBFT_DIR)$(LIBFT)
+	$(CC) $(CFLAGS) $(OBJS_S) $(LIBFT_DIR)$(LIBFT) -o $(NAME_S)
 
 
-$(NAME_C): $(OBJS_C) $(LIBFT)
-	$(CC) $(CFLAGS) $(OBJS_C) -L$(LIBFT_DIR) -lft -o $@
+$(NAME_C): $(OBJS_C) $(LIBFT_DIR)$(LIBFT)
+	$(CC) $(CFLAGS) $(OBJS_C) $(LIBFT_DIR)$(LIBFT) -o $(NAME_C)
 
-$(LIBFT):
-	$(MAKE) -C $(LIBFT_DIR)
+$(LIBFT_DIR)$(LIBFT):
+	$(MAKE) -C $(LIBFT_DIR) --silent
 	@echo "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ Compilando, espere unos segundos..."
 
 bonus:  $(BONUS_NAME_S) $(BONUS_NAME_C)
@@ -42,12 +42,11 @@ bonus:  $(BONUS_NAME_S) $(BONUS_NAME_C)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-$(BONUS_NAME_S): $(BONUS_OBJS_S) $(LIBFT)
-	$(CC) $(CFLAGS) $(BONUS_OBJS_S) -L$(LIBFT_DIR) -lft -o $@
+$(BONUS_NAME_S): $(BONUS_OBJS_S) $(LIBFT_DIR)$(LIBFT)
+	$(CC) $(CFLAGS) $(BONUS_OBJS_S) $(LIBFT_DIR)$(LIBFT) -o $(BONUS_NAME_S)
 
-
-$(BONUS_NAME_C): $(BONUS_OBJS_C) $(LIBFT)
-	$(CC) $(CFLAGS) $(BONUS_OBJS_C) -L$(LIBFT_DIR) -lft -o $@
+$(BONUS_NAME_C): $(BONUS_OBJS_C) $(LIBFT_DIR)$(LIBFT)
+	$(CC) $(CFLAGS) $(BONUS_OBJS_C) $(LIBFT_DIR)$(LIBFT) -o $(BONUS_NAME_C)
 
 $(LIBFT):
 	$(MAKE) -C $(LIBFT_DIR)

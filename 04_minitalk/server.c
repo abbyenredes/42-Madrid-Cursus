@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   server.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abigamas <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/09/02 17:03:33 by abigamas          #+#    #+#             */
+/*   Updated: 2024/09/03 12:45:21 by abigamas         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "minitalk.h"
 
 void	print_title(void)
@@ -40,7 +52,6 @@ void	ft_reconstruct_char(int sig)
 
 int	main(int argc, char **argv)
 {
-
 	print_title();
 	(void)argv;
 	if (argc != 1)
@@ -48,10 +59,11 @@ int	main(int argc, char **argv)
 		ft_printf("Error\n");
 		return (1);
 	}
+
+	signal(SIGUSR1, ft_reconstruct_char);
+	signal(SIGUSR2, ft_reconstruct_char);
 	while (argc == 1)
 	{
-		signal(SIGUSR1, ft_reconstruct_char);
-		signal(SIGUSR2, ft_reconstruct_char);
 		pause ();
 	}
 	return (0);
