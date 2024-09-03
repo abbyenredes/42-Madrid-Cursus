@@ -39,6 +39,8 @@ Se trata de aprender a usar señales UNIX creando un pequeño programa de interc
   
 * Aprende sobre procesos y señales en 1 hora: [Master class señales UNIX](https://www.youtube.com/watch?v=K4zCwlJOflo).
 
+* Poner colores en C [colores C](https://www.somosbinarios.es/como-usar-colores-en-c/)
+
 
 ### Empecemos
 <table>
