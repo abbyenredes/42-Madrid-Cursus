@@ -168,7 +168,7 @@ Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo
 
 - [X] Mostrar la string rápido <=0,00001 seg.
 
-Mi programa tarda uslepp(500) en mostrar el mensaje.
+Mi programa tarda uslepp(50) en mostrar el mensaje.
 
 - [ ] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
 
@@ -177,6 +177,10 @@ Mi programa tarda uslepp(500) en mostrar el mensaje.
 
 Para el PID usaremos nuestra famosa función [ft_atoi](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/00_libft/ft_atoi.c), que convierte carácteres en números, y otra función que nos convierta nuestra string a binaria, la mia la llamaré ft_binary_conversion (aplico un poco de clean code).
 - [X] Comunicar la string pasada como parámetro al servidor.
+
+> [!WARNING]
+> Cuidado con usar la función signal, a mi me dio error en el programa y desbordamiento de buffer
+> ![]()
 ## Pongamoslo a prueba
 
 ![](link)
