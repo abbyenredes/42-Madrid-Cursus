@@ -170,7 +170,7 @@ Con esto concluimos el apartado señales de humo, para volcarnos realmente en lo
 
 Mi programa tarda uslepp(50) en mostrar el mensaje.
 
-- [ ] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
+- [X] Ser capaz de recibir distintos mensajes de otros clientes sin reiniciar.
 
 ### Cliente
 - [X] Tomar como parámetros PID y string.
@@ -181,6 +181,21 @@ Para el PID usaremos nuestra famosa función [ft_atoi](https://github.com/abbyen
 > [!WARNING]
 > Cuidado con usar la función signal, a mi me dio error en el programa y desbordamiento de buffer
 > ![]()
+
+### Usando sigaction
+
+> [!NOTE]
+> [Manual de sigaction](https://man7.org/linux/man-pages/man2/sigaction.2.html)
+> Esta función la vamos a configurar según los requerimientos de nuestro programa.
+
+¿Por qué útilizamos sigaction en vez de signal?
+1. Es una versión avanzada de signal.
+2. Tiene multiples configuraciones y al ser una struct la útilizaremos con la siguiente estructura: nombre_de_nuestra_variable.sa_configuracion.
+3. Es más segura a la hora de lanzar señales.
+
+¿Cómo la uso?
+
+
 ## Pongamoslo a prueba
 
 ![](link)
