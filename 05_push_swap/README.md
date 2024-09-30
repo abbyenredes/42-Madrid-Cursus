@@ -50,8 +50,14 @@ Se trata de crear un algoritmo de ordenamiento eficiente que con pocos pasos ord
 > [!NOTE]
 > A partir de este proyecto trabajaré por carpetas e intentaré que cada función este en su archivo correspondiente y no en un solo archivo.
 
-
-## Pongamoslo a prueba
+1. Creamos la carpeta madre llamada push_swap `mkdir push_swap`
+2. Creamos nuestro Makefile.
+3. Dentro de push_swap creamos las siguientes carpetas: `mkdir include src`
+4. En include vamos a poner nuestro .h
+5. En la carpeta src creamos la subcarpeta: `mkdir utils` allí guardaremos las funciones auxiliares.
+6. En src van ha ir nuestras funciones principales y nuestro main.
+## 
+Pongamoslo a prueba
 
 ![](link)
 
