@@ -1,4 +1,4 @@
-# Ordenemos datos en pocos movimientos
+# Ordenemos stacks
 
 <details>
   <summary>¿Que voy a encontrarme?</summary>
@@ -36,14 +36,20 @@ Se trata de crear un algoritmo de ordenamiento eficiente que con pocos pasos ord
 
 ### Prerrequisitos
 
-- [ ]
-- [ ]
+- [x] Tener 2 stacks llamadas A y B.
+- [x] Stack A contiene una cantidad aleatoria de números, mientras que B estará vacio. 
+- [x] Ordenar los números de la stak de forma ascendente.
 
 ### Mi paso a paso
 
 > [!WARNING]
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
+
+#### Manual de buenas prácticas
+> [!NOTE]
+> A partir de este proyecto trabajaré por carpetas e intentaré que cada función este en su archivo correspondiente y no en un solo archivo.
+
 
 ## Pongamoslo a prueba
 
