@@ -29,7 +29,7 @@ Se trata de crear un algoritmo de ordenamiento eficiente que con pocos pasos ord
 :construction: Proyecto en construcción :construction:
 
 ### Mis herramientas
-* : []()
+* [visualizar movimientos](https://github.com/o-reo/push_swap_visualizer?tab=readme-ov-file)
 * : []()
 
 ## Empecemos
