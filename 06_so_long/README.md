@@ -29,24 +29,46 @@
 :construction: Proyecto en construcción :construction:
 
 ### Mis herramientas
-* [Documentación de minilibx](https://harm-smits.github.io/42docs/libs/minilibx)
-* [Lista de verificación](https://42-cursus.gitbook.io/guide/rank-02/so_long/building-the-thing)
-* []()
+* Documentación para usar minilibx: [Doc minilibx](https://harm-smits.github.io/42docs/libs/minilibx)
+* Guía para optimizar nuestro proyecto: [Lista de verificación](https://42-cursus.gitbook.io/guide/rank-02/so_long/building-the-thing)
+* Funciones que vamos a usar de minilibx: [Guía MLX](https://reactive.so/post/42-a-comprehensive-guide-to-so_long/)
 * []()
 * []()
 
 ## Empecemos
 
-### Prerrequisitos
+### Checkw that you know what MiniLibX is capable of doing, we will get started with doing some very basic things. These will provide you with a solid uw that you know what MiniLibX is capable of doing, we will get started with doing some very basic things. These will provide you with a solid ulist
 
+- [ ] Comprender como funciona y que ofrece minilibx.
+- [ ] Crear carpeta so_long y subcarpetas src, utils ... para desarrollar el proyecto.
+- [ ] Crear y configurar Makefile.
+- [ ] 
 - [ ]
 - [ ]
-
 ### Mi paso a paso
 
 > [!WARNING]
 > 
 > Todo lo escrito es en base a mi experiencia, cada quien tiene su propio camino y tiempo. Espero que lo tomes como un complemento a tu formación y no como las sagradas escrituras.
+
+#### Entendiendo minilibx
+> 1. ¿Qué es minilibx?
+> 
+> 'Es un API de programación X-Window (X11R6) simple en C.' Esta al menos es la definición que encontramos en la documentación de esta pequeña libreria gráfica que nos permite realizar las tareas más básicas para renderizar algo en pantalla sin necesidad de tener conocimientos de X-Window o Cocoa. Y te preguntaras:
+
+> 2. ¿Qué es X-Window?
+>    
+> Es un sistema gráfico orientado a la red para Unix. Por ejemplo, se utiliza para conectarse a escritorios remotos. Uno de los ejemplos más comunes de esta implementación sería TeamViewer.
+
+#### Funciones que voy a usar
+
+| Función | Descripción |
+| ------------- | ------------- |
+| mlx_init | Inicializa la biblioteca MLX. Debe llamarse antes de utilizar cualquier otra función. |
+| mlx_new_window | Crea una nueva instancia de ventana. |
+| mlx_hook | - |
+| - | - |
+| - | - |
 
 ## Pongamoslo a prueba
 
