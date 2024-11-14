@@ -481,7 +481,7 @@ Vamos a resumirlo aun más
     <li>
       <a href="#Empecemos">Empecemos</a>
       <ul>
-        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Checklist">Checklist</a></li>
         <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
       </ul>
     </li>
@@ -497,12 +497,12 @@ Vamos a resumirlo aun más
 :construction: Proyecto en construcción :construction:
 
 ### Mis herramientas
-* : []()
-* : []()
+* []()
+* []()
 
 ## Empecemos
 
-### Prerrequisitos
+### Checklist
 
 - [ ]
 - [ ]
