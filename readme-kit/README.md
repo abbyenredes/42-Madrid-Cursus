@@ -79,7 +79,7 @@ si lo queremos centrado:
     <li>
       <a href="#Empecemos">Empecemos</a>
       <ul>
-        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Checklist">Checklist</a></li>
         <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
       </ul>
     </li>
@@ -117,7 +117,7 @@ Aquí me gusta poner mi bibliografía y enlaces utiles, para mi es importante da
 
 ## Empecemos
 
-### Prerrequisitos
+### Checklist
 En esta sección suelo poner la laundry list para que el proyecto se pueda realizar, en este caso sería:
 - [x] Recopilar los patrones de mis anteriores documentaciones.
 - [X] Ver como puedo crear una plantilla efectiva.
@@ -290,7 +290,7 @@ Así es, esto no acaba porque nos queda lo más importante, compartir la plantil
   - [Estado del proyecto](#Estado-del-proyecto)
   - [Mis herramientas](#Mis-herramientas)
 - [Empecemos](#Empecemos)
-  - [Prerrequisitos](#Prerrequisitos)
+  - [Checklist](#Checklist)
   - [Mi paso a paso](#Mi-paso-a-paso)
 - [Pongamoslo a prueba](#Pongamoslo-a-prueba)
 - [Roadmap](#Roadmap)
@@ -309,7 +309,7 @@ Así es, esto no acaba porque nos queda lo más importante, compartir la plantil
     <li>
       <a href="#Empecemos">Empecemos</a>
       <ul>
-        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Checklist">Checklist</a></li>
         <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
       </ul>
     </li>
@@ -337,7 +337,7 @@ Así es, esto no acaba porque nos queda lo más importante, compartir la plantil
 
 ## Empecemos
 
-### Prerrequisitos
+### Checklist
 
 - [X] Tarea completa.
 - [ ] Tarea pendiente.
@@ -497,8 +497,8 @@ Vamos a resumirlo aun más
 :construction: Proyecto en construcción :construction:
 
 ### Mis herramientas
-* []()
-* []()
+* : []()
+* : []()
 
 ## Empecemos
 
