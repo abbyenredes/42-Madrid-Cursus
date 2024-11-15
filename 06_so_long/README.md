@@ -37,8 +37,7 @@
 
 ## Empecemos
 
-### Checkw that you know what MiniLibX is capable of doing, we will get started with doing some very basic things. These will provide you with a solid uw that you know what MiniLibX is capable of doing, we will get started with doing some very basic things. These will provide you with a solid ulist
-
+### Checklist
 - [ ] Comprender como funciona y que ofrece minilibx.
 - [ ] Crear carpeta so_long y subcarpetas src, utils ... para desarrollar el proyecto.
 - [ ] Crear y configurar Makefile.
@@ -66,9 +65,13 @@
 | ------------- | ------------- |
 | mlx_init | Inicializa la biblioteca MLX. Debe llamarse antes de utilizar cualquier otra función. |
 | mlx_new_window | Crea una nueva instancia de ventana. |
-| mlx_hook | - |
-| - | - |
-| - | - |
+| mlx_hook | Registra eventos. |
+| mlx_loop | Recorre el puntero MLX y activa cada gancho en el orden de registro. |
+| mlx_xpm_file_to_image | Convierte un archivo XPM en un puntero de imagen MLX |
+| mlx_put_image_to_window | Pone su imagen en la pantalla en las coordenadas dadas. |
+| mlx_destroy_image | Libera la imagen. |
+| mlx_destroy_window | Libera la instancia de la ventana. |
+| mlx_destroy_display | Libera MLX. |
 
 ## Pongamoslo a prueba
 
