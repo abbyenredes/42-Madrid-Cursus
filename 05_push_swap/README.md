@@ -13,7 +13,7 @@
     <li>
       <a href="#Empecemos">Empecemos</a>
       <ul>
-        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Checklist">Checklist</a></li>
         <li><a href="#Mi-paso-a-paso">Mi paso a paso</a></li>
       </ul>
     </li>
@@ -29,16 +29,18 @@ Se trata de crear un algoritmo de ordenamiento eficiente que con pocos pasos ord
 :construction: Proyecto en construcción :construction:
 
 ### Mis herramientas
-* [visualizar movimientos](https://github.com/o-reo/push_swap_visualizer?tab=readme-ov-file)
-* : []()
+* Herramienta para ver mis movimientos: [visualizar movimientos](https://github.com/o-reo/push_swap_visualizer?tab=readme-ov-file)
+* Generador de números aleatorios: [Random number](https://pinetools.com/random-number-generator)
 
 ## Empecemos
 
-### Prerrequisitos
+### checklist
 
-- [x] Tener 2 stacks llamadas A y B.
-- [x] Stack A contiene una cantidad aleatoria de números, mientras que B estará vacio. 
-- [x] Ordenar los números de la stak de forma ascendente.
+- [x] Crear movimientos.
+- [x] Gestión de errores.
+- [x] Hardcode 5 números.
+- [ ] Algoritmo de ordenamiento > 5 números.
+- [ ] Revisión y tests.
 
 ### Mi paso a paso
 
