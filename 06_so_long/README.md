@@ -41,7 +41,7 @@
 - [ ] Comprender como funciona y que ofrece minilibx.
 - [ ] Crear carpeta so_long y subcarpetas src, utils ... para desarrollar el proyecto.
 - [ ] Crear y configurar Makefile.
-- [ ] 
+- [ ] Exporta mi libft-vincularla con el programa
 - [ ]
 - [ ]
 ### Mi paso a paso
@@ -65,8 +65,8 @@
 | ------------- | ------------- |
 | mlx_init | Inicializa la biblioteca MLX. Debe llamarse antes de utilizar cualquier otra función. |
 | mlx_new_window | Crea una nueva instancia de ventana. |
-| mlx_hook | Registra eventos. |
-| mlx_loop | Recorre el puntero MLX y activa cada gancho en el orden de registro. |
+| mlx_hook | Registra cualquier gancho definido previamente y escucha. Esto también evita el comportamiento predeterminado de destruir la ventana al crearla.|
+| mlx_loop | Le permite escuchar eventos nativos de X11, como movimientos del mouse, pulsaciones de teclas, interacción con ventanas y más... |
 | mlx_xpm_file_to_image | Convierte un archivo XPM en un puntero de imagen MLX |
 | mlx_put_image_to_window | Pone su imagen en la pantalla en las coordenadas dadas. |
 | mlx_destroy_image | Libera la imagen. |
