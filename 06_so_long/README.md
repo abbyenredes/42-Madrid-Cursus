@@ -38,10 +38,13 @@
 ## Empecemos
 
 ### Checklist
-- [ ] Comprender como funciona y que ofrece minilibx.
-- [ ] Crear carpeta so_long y subcarpetas src, utils ... para desarrollar el proyecto.
-- [ ] Crear y configurar Makefile.
-- [ ] Exporta mi libft-vincularla con el programa
+- [x] Comprender como funciona y que ofrece minilibx.
+- [x] Crear carpeta so_long y subcarpetas src, utils ... para desarrollar el proyecto.
+- [-] Crear y configurar Makefile.
+- [x] Exporta mi libft-vincularla con el programa.
+- [ ] Crear nuestro .h.
+- [ ]
+- [ ]
 - [ ]
 - [ ]
 ### Mi paso a paso
@@ -73,6 +76,21 @@
 | mlx_destroy_window | Libera la instancia de la ventana. |
 | mlx_destroy_display | Libera MLX. |
 
+#### ¿Creando nuestro espacio de trabajo?
+Vamos con nuestras buenas prácticas de crear carpetas y subcarpetas para establecer el orden del programa, además que aprovecho para exportar mi [libft]().
+> [!IMPORTANT]
+>
+> Vamos a trabajar con [GNL](), recuerda incluirlo en tu librería.
+
+Usamos el comando ``cp -r Libft ruta_so_long`` para incluir nuestra libft en nuestra carpeta so_long.
+
+Crearemos la carpeta include(aquí irá nuestro .h).
+
+Creamos  src(aquí va a ir nuestro programa), dentro de src va muestra carpeta utils(aquí irán las funciones auxiliares de nuestro programa).
+
+Te dejo el shortcode: ``mkdir include src`` >> ``cd src`` >> ``mkdir utils``
+
+Finalmente creamos nuestro [Makefile]()
 ## Pongamoslo a prueba
 
 ![](link)
