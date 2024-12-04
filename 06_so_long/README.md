@@ -40,9 +40,9 @@
 ### Checklist
 - [x] Comprender como funciona y que ofrece minilibx.
 - [x] Crear carpeta so_long y subcarpetas src, utils ... para desarrollar el proyecto.
-- [-] Crear y configurar Makefile.
+- [x] Crear y configurar Makefile.
 - [x] Exporta mi libft-vincularla con el programa.
-- [ ] Crear nuestro .h.
+- [x] Crear nuestro .h.
 - [ ]
 - [ ]
 - [ ]
