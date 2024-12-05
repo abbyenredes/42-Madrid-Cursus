@@ -43,9 +43,9 @@
 - [x] Crear y configurar Makefile.
 - [x] Exporta mi libft-vincularla con el programa.
 - [x] Crear nuestro .h.
-- [ ]
-- [ ]
-- [ ]
+- [x] Visualizar una ventana.
+- [ ] Renderizar una imagen en la ventana.
+- [ ] 
 - [ ]
 ### Mi paso a paso
 
@@ -90,7 +90,72 @@ Creamos  src(aquí va a ir nuestro programa), dentro de src va muestra carpeta u
 
 Te dejo el shortcode: ``mkdir include src`` >> ``cd src`` >> ``mkdir utils``
 
-Finalmente creamos nuestro [Makefile]()
+Finalmente creamos nuestro [Makefile]() en el cual agregaremos la regla para vincular minilibx:
+``` Makefile 
+INCLUDES = -L./mlx -lmlx -lXext -lX11 -lm
+```
+Creamos también nuestro [so_long.h](), usaremos listas enlazadas para trabajar con minilibx, aquí mi estructura:
+```c
+ifndef SO_LONG_H
+# define SO_LONG_H
+
+#include "../libft/libft.h"
+#include "../mlx/mlx.h"
+#include <X11/X.h>
+#include <X11/keysym.h>
+
+typedef struct s_data
+{
+	void		*mlx_ptr; // MLX pointer
+	void		*win_ptr; // MLX window pointer
+	void		*textures[5]; // MLX image pointers (on the stack)
+	struct      t_map  *map; // Map pointer (contains map details - preferably kept on the stack)
+}	t_data;
+
+#endif
+```
+Comprobaremos que funciona correctamente creando un main y probando el siguiente código sacado de este [tutorial](https://reactive.so/post/42-a-comprehensive-guide-to-so_long/) :
+```C
+#include "../include/so_long.h"
+
+int on_destroy(t_data *data)
+{
+	mlx_destroy_window(data->mlx_ptr, data->win_ptr);
+	mlx_destroy_display(data->mlx_ptr);
+	free(data->mlx_ptr);
+	exit(0);
+	return (0);
+}
+
+int on_keypress(int keysym, t_data *data)
+{
+	(void)data;
+	printf("Pressed key: %d\\n", keysym);
+	return (0);
+}
+
+int main(void)
+{
+	t_data data;
+
+	data.mlx_ptr = mlx_init();
+	if (!data.mlx_ptr)
+		return (1);
+	data.win_ptr = mlx_new_window(data.mlx_ptr, 600, 400, "bayta's adventure");
+	if (!data.win_ptr)
+		return (free(data.mlx_ptr), 1);
+		
+	// Register key release hook
+	mlx_hook(data.win_ptr, KeyRelease, KeyReleaseMask, &on_keypress, &data);
+
+	// Register destroy hook
+	mlx_hook(data.win_ptr, DestroyNotify, StructureNotifyMask, &on_destroy, &data);
+
+	// Loop over the MLX pointer
+	mlx_loop(data.mlx_ptr);
+	return (0);
+}
+```
 ## Pongamoslo a prueba
 
 ![](link)
