@@ -156,6 +156,8 @@ int main(void)
 	return (0);
 }
 ```
+Tendría que dar el siguiente resultado:
+![abrir una ventana](https://github.com/abbyenredes/42-Madrid-Cursus/blob/main/06_so_long/img/open_windows.gif)
 ## Pongamoslo a prueba
 
 ![](link)
