@@ -77,10 +77,10 @@
 | mlx_destroy_display | Libera MLX. |
 
 #### ¿Creando nuestro espacio de trabajo?
-Vamos con nuestras buenas prácticas de crear carpetas y subcarpetas para establecer el orden del programa, además que aprovecho para exportar mi [libft]().
+Vamos con nuestras buenas prácticas de crear carpetas y subcarpetas para establecer el orden del programa, además que aprovecho para exportar mi [libft](https://github.com/abbyenredes/Libft).
 > [!IMPORTANT]
 >
-> Vamos a trabajar con [GNL](), recuerda incluirlo en tu librería.
+> Vamos a trabajar con [GNL](https://github.com/abbyenredes/02_get_next_line), recuerda incluirlo en tu librería.
 
 Usamos el comando ``cp -r Libft ruta_so_long`` para incluir nuestra libft en nuestra carpeta so_long.
 
@@ -90,11 +90,11 @@ Creamos  src(aquí va a ir nuestro programa), dentro de src va muestra carpeta u
 
 Te dejo el shortcode: ``mkdir include src`` >> ``cd src`` >> ``mkdir utils``
 
-Finalmente creamos nuestro [Makefile]() en el cual agregaremos la regla para vincular minilibx:
+Finalmente creamos nuestro [Makefile](https://github.com/abbyenredes/so_long/blob/main/Makefile) en el cual agregaremos la regla para vincular minilibx:
 ``` Makefile 
 INCLUDES = -L./mlx -lmlx -lXext -lX11 -lm
 ```
-Creamos también nuestro [so_long.h](), usaremos listas enlazadas para trabajar con minilibx, aquí mi estructura:
+Creamos también nuestro [so_long.h](https://github.com/abbyenredes/so_long/blob/main/include/so_long.h), usaremos listas enlazadas para trabajar con minilibx, aquí mi estructura:
 ```c
 ifndef SO_LONG_H
 # define SO_LONG_H
